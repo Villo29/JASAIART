@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
-import "../../assets/styles/header.css"
-import Logo from "../../assets/images/JasaiART.png"
+import "../../assets/styles/header.css";
+import Logo from "../../assets/images/JasaiART.png";
 
 
 function Header() {
     return (  
-        <header>
+
             
             <div className="he">
                 <img src={Logo} className="logo" alt="" />
+                <div className="he2">
                 <Link to="/Login">
                 <h3 id="Login" > Login </h3>
                 </Link>
@@ -21,8 +22,8 @@ function Header() {
                 <Link to="/Carrito">
                     <h3 id="carrito">Carrito</h3>
                 </Link>
+                </div>
             </div>
-        </header>
     );
 }
 

@@ -1,6 +1,6 @@
-import "../../assets/styles/img1.css"
-import img from "../../assets/images/img1.png"
-import img2 from "../../assets/images/img3.png"
+import "../../assets/styles/img1.css";
+import img from "../../assets/images/img1.png";
+import img2 from "../../assets/images/img3.png";
 
 function ImgText() {
     return (

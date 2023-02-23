@@ -1,7 +1,7 @@
 import Header from "../componentes/atomos/header";
 import Footer from "../componentes/atomos/footer";
 import ImgText from "../componentes/moleculas/imagen1";
-import "../assets/styles/home.css"
+import "../assets/styles/home.css";
 
 
 function Home() {
