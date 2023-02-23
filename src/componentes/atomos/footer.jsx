@@ -19,7 +19,7 @@ function Footer() {
                 </Link>
             </div>
         </div>
-     );
+    );
 }
 
 export default Footer;

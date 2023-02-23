@@ -1,3 +1,5 @@
+
+
 .form{
     position: absolute;
     width: 562px;
@@ -114,7 +116,7 @@ color: #F46044;
     width: 329px;
     height: 19px;
     left: 354px;
-    top: 658px;
+    top: 510px;
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 500;
@@ -123,4 +125,46 @@ line-height: 19px;
 /* identical to box height */
 text-decoration-line: underline;
 color: #F46044;
+}
+
+#create{
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 121px;
+    top: 652px;
+    /* h2 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #FE745A;
+}
+
+#create2{
+    position: absolute;
+    width: 213px;
+    height: 19px;
+    left: 354px;
+    top: 652px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FE745A;
+}
+
+#buton{
+    position: absolute;
+    width: 212px;
+    height: 48px;
+    left: 238px;
+    top: 577px;
+    background: #F46044;
 }

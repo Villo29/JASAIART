@@ -5,14 +5,12 @@ import "../../assets/styles/login.css"
 
 function Login() {
     return (
-            
             <>
             <div className="Form">
             <img src={Logo} alt=""  className="imgL"/>
                 <div className="welco">
                     <h3>BIENVENIDO JASAI ART</h3>
                 </div>
-                
                 <div > 
                     <h3 className="email">Correo: </h3>
                     <input type="text" className="inputL"  />
@@ -30,9 +28,15 @@ function Login() {
                     </div>
                     <h3 className="op">Olvidaste tu contraseña</h3>
                 </div>
+                        <div>
+                            <button type="submit" id="buton" >Login</button>
+                        </div>
+                    <div>
+                        <h3 id="create" >¿No tienes cuenta?</h3>
+                        <h3 id="create2">Registrate</h3>
+                    </div>
             </div>
             </>
-        
     );
 }
 
