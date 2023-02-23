@@ -1,0 +1,100 @@
+
+.he{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 720px;
+    background: #EE3B24;
+}
+
+
+.logo{
+    position: absolute;
+    width: 54px;
+    height: 55px;
+    left: 55px;
+    top: 0px;
+}
+
+#Login{
+/* Login */
+position: absolute;
+width: 96px;
+height: 55px;
+left: 847px;
+top: 0px;
+/* h3 párrafo */
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+#SobreP{
+/* Sobre Pintores */
+position: absolute;
+width: 212px;
+height: 55px;
+left: 963px;
+top: 0px;
+/* h3 párrafo */
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+#contacto{
+    /* Contacto */
+position: absolute;
+width: 97px;
+height: 55px;
+left: 1195px;
+top: 0px;
+/* h3 párrafo */
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+#carrito{
+    /* Carrito */
+position: relative;
+width: 96px;
+height: 55px;
+left: 1312px;
+top: 0px;
+/* h3 párrafo */
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+}

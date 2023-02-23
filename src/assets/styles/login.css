@@ -1,0 +1,22 @@
+.LogoL{
+    position: absolute;
+    width: 212px;
+    height: 202px;
+    left: 265px;
+    top: 10%;
+}    
+
+
+#bien{
+    position: absolute;
+    width: 339px;
+    height: 35px;
+    left: 207px;
+    top: 35%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #424242;
+}
