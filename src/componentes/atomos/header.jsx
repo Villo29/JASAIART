@@ -11,7 +11,7 @@ function Header() {
                 <img src={Logo} className="logo" alt="" />
                 <div className="he2">
                 <Link to="/Login">
-                <h3 id="Login" > Login </h3>
+                <h3 id="Login1" > Login </h3>
                 </Link>
                 <Link to="/Sobre-Pintores">
                     <h3 id="SobreP">Sobre Pintores</h3>

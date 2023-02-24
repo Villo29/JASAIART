@@ -33,7 +33,9 @@ function Login() {
                         </div>
                     <div>
                         <h3 id="create" >¿No tienes cuenta?</h3>
+                        <Link to="/Registrase">
                         <h3 id="create2">Registrate</h3>
+                        </Link>
                     </div>
             </div>
             </>
