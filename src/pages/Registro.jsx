@@ -5,7 +5,7 @@ function Registro() {
     
     return ( 
         <RegistroL></RegistroL>
-     );
+    );
 }
 
 export default Registro;
