@@ -1,0 +1,75 @@
+.contenedor-carrusel{
+    position: absolute;
+    width: 100%;
+    height: 585px;
+    left: 0px;
+    top: 55px;
+    
+    background: #EBDFC5;
+    /* background: #f80000; */
+}
+
+.img-carrusel{
+    position: absolute;
+    width: 1376px;
+    height: 537px;
+    left: 80px;
+    top: 24px;
+}
+
+.btn-arrow-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 100px;
+    top: 263px;
+
+    opacity: 0.8;
+}
+
+.btn-arrow-2{
+    box-sizing: border-box;
+
+    position: absolute;
+    
+    left: 1395px;
+    top: 263px;
+
+    opacity: 0.8;
+}
+
+.btn-carrusel-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    
+    left: 645px;
+    top: 525px;
+}
+
+.btn-carrusel-2{
+    box-sizing: border-box;
+
+    position: absolute;
+    
+    left: 686px;
+    top: 525px;
+}
+
+.btn-carrusel-3{
+    box-sizing: border-box;
+
+    position: absolute;
+    
+    left: 727px;
+    top: 525px;
+}
+
+.btn-carrusel-4{
+    box-sizing: border-box;
+
+    position: absolute;
+    
+    left: 768px;
+    top: 525px;
+}

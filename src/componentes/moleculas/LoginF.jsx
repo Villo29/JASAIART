@@ -28,9 +28,11 @@ function Login() {
                     </div>
                     <h3 className="op">Olvidaste tu contraseña</h3>
                 </div>
+                        <Link to="/JasaiArt">
                         <div>
                             <button type="submit" id="buton" >Login</button>
                         </div>
+                        </Link>
                     <div>
                         <h3 id="create" >¿No tienes cuenta?</h3>
                         <Link to="/Registrase">

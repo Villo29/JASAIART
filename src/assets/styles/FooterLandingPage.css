@@ -1,0 +1,125 @@
+.logoJasai{
+    position: absolute;
+    width: 98px;
+    height: 114px;
+
+    top: 2750px;
+}
+
+h1{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.txt-contactanos{
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    left: 200px;
+    top: 2700px;
+}
+
+.txt-NumeroTelefonico{
+    position: absolute;
+    width: 329.23px;
+    height: 25px;
+    left: 310px;
+    top: 2750px;
+}
+
+.txt-email{
+    position: absolute;
+    width: 329.23px;
+    height: 25px;
+    left: 282px;
+    top: 2780px;
+}
+
+.logoWhatsapp{
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: 200px;
+    top: 2760px;
+}
+
+.LogoGmail{
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: 200px;
+    top: 2795px;
+}
+
+.txt-RedesSociales{
+    position: absolute;
+    width: 329px;
+    height: 21px;
+    left: 600px;
+    top: 2700px;
+}
+
+.logoFB{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 600px;
+    top: 2790px;
+}
+
+.logoInstagram{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 725px;
+    top: 2790px;
+}
+
+.logoTwitter{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 850px;
+    top: 2790px;
+}
+
+.txt-MediosPago{
+    position: absolute;
+    width: 445px;
+    height: 21px;
+    left: 1030px;
+    top: 2700px;
+}
+
+.logoPayPal{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 1150px;
+    top: 2790px;
+}
+
+.logoVisa{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 1270px;
+    top: 2790px;
+}

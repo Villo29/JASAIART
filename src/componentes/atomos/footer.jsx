@@ -9,7 +9,7 @@ function Footer() {
             <h2 className="acercaD">ACERCA DE </h2>
             <img src={Logo} className="logo" alt="" />
             <div>
-                <Link to="/Vender-Arte">
+                <Link to="/VenderArte">
                 <h4 className="publica">Publica tu Arte</h4>    
                 </Link>
             </div>

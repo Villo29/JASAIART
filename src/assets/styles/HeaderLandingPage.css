@@ -1,0 +1,57 @@
+.LogoJasai{
+    width: 54px;
+    height: 55px;
+
+    position: absolute;
+    left: 29px;
+    top: 0px;
+}
+
+.contenedorHeader{
+    position: absolute;
+
+    width: 1519px;
+    height: 55px;
+
+    left: 0px;
+    top: 0px;
+
+    background-color: #EE3B24;
+}
+
+h2{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EBDFC5;
+}
+
+.txt-FiltrarPrecio{
+    position: absolute;
+    width: 213px;
+    height: 55px;
+    top: -15px;
+    left: 800px;
+}
+
+.txt-VenderArte{
+    position: absolute;
+    width: 213px;
+    height: 55px;
+    left: 1065px;
+    top: -15px;
+}
+
+.txt-tecnicas{
+    position: absolute;
+    width: 213px;
+    height: 55px;
+    left: 1306px;
+    top: -15px;
+}
