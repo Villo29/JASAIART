@@ -1,0 +1,20 @@
+.contenedorPublicar{
+    position: absolute;
+    width: 213.48px;
+    height: 35px;
+    left: 800px;
+    top: 1410px;
+
+    background: #018045;
+    border: 2px solid #018045;
+    
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}

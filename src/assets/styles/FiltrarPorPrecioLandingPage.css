@@ -1,0 +1,29 @@
+.contenedorFiltrarPrecio{
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    left: 0px;
+    top: 1285px;
+
+    background: #EE3B24;
+}
+
+.txt-filtrarPrecio{
+    position: absolute;
+    width: 1376px;
+    height: 46px;
+    left: 71.5px;
+    top: -20px;
+/*     top: 1299px; */
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #EBDFC5;
+
+}

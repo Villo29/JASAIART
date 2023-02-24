@@ -1,0 +1,283 @@
+.txt-ObrasDestacadas{
+    position: absolute;
+    width: 329px;
+    height: 27px;
+    left: 32px;
+    top: 2056px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #F8CA76;
+}
+
+.contenedor-pintura1{
+    position: absolute;
+    width: 480px;
+    height: 392px;
+    left: 32px;
+    top: 2115px;
+
+    background: #0651A2;
+}
+
+.contenedor-pintura2{
+    
+    position: absolute;
+    width: 480px;
+    height: 392px;
+    left: 512px;
+    top: 2115px;
+
+    background: #018045;
+}
+
+.contenedor-pintura3{
+    position: absolute;
+    width: 470px;
+    height: 392px;
+    left: 992px;
+    top: 2115px;
+
+    background: #EE3B24;
+}
+
+.elemento1{
+    position: absolute;
+    width: 60px;
+    height: 392px;
+    left: -30px;
+    top: 0px;
+    background: #F8CA76;
+}
+
+.elemento2{
+    position: absolute;
+    width: 60px;
+    height: 392px;
+    left: 467px;
+    top: 0px;
+    background: #BB9254;;
+}
+
+.btn-vermas{
+    position: absolute;
+    left: 536.5px;
+    top: 2507px;
+}
+
+.txt-vermas{
+    position: absolute;
+    left: 704.5px;
+    top: 2533px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #F46044;
+}
+
+.elementoInterno1{
+    position: absolute;
+    width: 214px;
+    height: 267px;
+    left: 40px;
+    top: 63px;
+
+    background: #000000;
+}
+
+.elementoInterno2{
+    position: absolute;
+    width: 214px;
+    height: 267px;
+    left: 10px;
+    top: 63px;
+    
+    background: #BB9254;
+}
+
+.elementoInterno3{
+    position: absolute;
+    width: 214px;
+    height: 267px;
+    left: 10px;
+    top: 63px;
+    
+    background: #0651A2;
+}
+
+.img-1{
+    position: absolute;
+    left: 53px;
+    top: 75px;
+}
+
+.img-2{
+    position: absolute;
+    left: 20px;
+    top: 75px;
+}
+
+.img-3{
+    position: absolute;
+    left: 23px;
+    top: 75px;
+}
+
+.txt-precio1{
+    position: absolute;
+    width: 95px;
+    height: 27px;
+    left: 263px;
+    top: 130px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #EBDFC5;
+}
+
+.txt-titulo1{
+    position: absolute;
+    width: 96px;
+    height: 20px;
+    left: 263px;
+    top: 172px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #EBDFC5;
+
+}
+
+.txt-artista1{
+    position: absolute;
+    width: 212px;
+    height: 19px;
+    left: 263px;
+    top: 194px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+
+    color: #EBDFC5;
+
+}
+
+.txt-precio2{
+    position: absolute;
+    width: 95px;
+    height: 27px;
+    left: 233px;
+    top: 130px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #EBDFC5;
+}
+
+.txt-titulo2{
+    position: absolute;
+    width: 96px;
+    height: 20px;
+    left: 233px;
+    top: 172px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #EBDFC5;
+
+}
+
+.txt-artista2{
+    position: absolute;
+    width: 212px;
+    height: 19px;
+    left: 233px;
+    top: 194px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+
+    color: #EBDFC5;
+
+}
+
+.txt-precio3{
+    position: absolute;
+    width: 95px;
+    height: 27px;
+    left: 233px;
+    top: 130px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #EBDFC5;
+}
+
+.txt-titulo3{
+    position: absolute;
+    width: 96px;
+    height: 20px;
+    left: 233px;
+    top: 172px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #EBDFC5;
+
+}
+
+.txt-artista3{
+    position: absolute;
+    width: 212px;
+    height: 19px;
+    left: 233px;
+    top: 194px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+
+    color: #EBDFC5;
+
+}
