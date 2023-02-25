@@ -1,11 +1,11 @@
-import HeaderLandingPage from '../components/atomos/HeaderLandingPage';
-import CarruselLandingPage from '../components/moleculas/CarruselLandingPage';
-import RegalaArte from '../components/moleculas/RegalaArteLandingPage';
-import FiltrarPorPrecioLandingPage from '../components/atomos/FiltrarPorPrecioLandingPage';
-import PreciosLandingPage from '../components/moleculas/PreciosLandingPage';
-import PorTecnicaLandingPage from '../components/moleculas/PorTecnicaLandingPage';
-import ObrasDestacadas from '../components/moleculas/ObrasDestacadasLandingPage';
-import FooterLandingPage from '../components/atomos/FooterLandingPage';
+import HeaderLandingPage from '../componentes/atomos/HeaderLandingPage';
+import CarruselLandingPage from '../componentes/moleculas/CarruselLandingPage';
+import RegalaArte from '../componentes/moleculas/RegalaArteLandingPage';
+import FiltrarPorPrecioLandingPage from '../componentes/atomos/FiltrarPorPrecioLandingPage';
+import PreciosLandingPage from '../componentes/moleculas/PreciosLandingPage';
+import PorTecnicaLandingPage from '../componentes/moleculas/PorTecnicaLandingPage';
+import ObrasDestacadas from '../componentes/moleculas/ObrasDestacadasLandingPage';
+import FooterLandingPage from '../componentes/atomos/FooterLandingPage';
 
 function LandingPage() {
     return (
@@ -15,9 +15,9 @@ function LandingPage() {
         <RegalaArte/>
         <FiltrarPorPrecioLandingPage/>
         <PreciosLandingPage/>
-        <PorTecnicaLandingPage/>
-        <ObrasDestacadas/>
-        <FooterLandingPage/>
+        <PorTecnicaLandingPage tituloTecnica="POR TÉCNICA"/>
+        <ObrasDestacadas tituloObras="OBRAS DESTACADAS"/>
+        <FooterLandingPage numero="+52 968 109 6112" correo="jasaiart@gmail.com"/>
         </>
     );
 }

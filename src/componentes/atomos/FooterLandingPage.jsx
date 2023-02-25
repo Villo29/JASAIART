@@ -1,15 +1,16 @@
 
-import LogoJasaiWhite from '../../assets/img/JasaiArtWhite.png'
-import IconoFB from '../../assets/img/IconoFacebook.png'
-import IconoTwitter from '../../assets/img/IconoTwitter.png'
-import IconoInstagram from '../../assets/img/IconoInstagram.png'
-import IconoVisa from '../../assets/img/IconoVisa.png'
-import IconoPaypal from '../../assets/img/IconoPayPal.png'
-import IconoWhatsapp from '../../assets/img/IconoWhatsApp.png'
-import IconoGmail from '../../assets/img/IconoGmail.png'
+import LogoJasaiWhite from '../../assets/images/JasaiArtWhite.png'
+import IconoFB from '../../assets/images/IconoFacebook.png'
+import IconoTwitter from '../../assets/images/IconoTwitter.png'
+import IconoInstagram from '../../assets/images/IconoInstagram.png'
+import IconoVisa from '../../assets/images/IconoVisa.png'
+import IconoPaypal from '../../assets/images/IconoPayPal.png'
+import IconoWhatsapp from '../../assets/images/IconoWhatsApp.png'
+import IconoGmail from '../../assets/images/IconoGmail.png'
 import '../../assets/styles/FooterLandingPage.css'
 
-function FooterLandingPage() {
+function FooterLandingPage(props) {
+/*     console.log(props) */
     return (
         <div>
 
@@ -17,9 +18,9 @@ function FooterLandingPage() {
             <img src={LogoJasaiWhite} className="logoJasai"/>
                 <h1 className='txt-contactanos'>CONTÁCTANOS</h1>
             <img src={IconoWhatsapp} className="logoWhatsapp"/>
-                <h2 className='txt-NumeroTelefonico'>+52 968 109 6112</h2>
+                <h2 className='txt-NumeroTelefonico'>{props.numero}</h2>
             <img src={IconoGmail} className="LogoGmail"/>
-                <h2 className='txt-email'>jasaiart@gmail.com</h2>
+                <h2 className='txt-email'>{props.correo}</h2>
             </div>
 
             <div>

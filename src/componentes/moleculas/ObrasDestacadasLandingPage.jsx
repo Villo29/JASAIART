@@ -1,13 +1,13 @@
-import BtnVerMas from '../../assets/img/btn-vermas.png'
-import ImagenCuadro1 from '../../assets/img/imgCuadro1.jpg'
-import ImagenCuadro2 from '../../assets/img/imgCuadro2.jpg'
-import ImagenCuadro3 from '../../assets/img/imgCuadro3.jpg'
+import BtnVerMas from '../../assets/images/btn-vermas.png'
+import ImagenCuadro1 from '../../assets/images/imgCuadro1.jpg'
+import ImagenCuadro2 from '../../assets/images/imgCuadro2.jpg'
+import ImagenCuadro3 from '../../assets/images/imgCuadro3.jpg'
 import '../../assets/styles/ObrasDestacadas.css'
 
-function ObrasDestacadas() {
+function ObrasDestacadas(props) {
     return (
         <div>
-            <h1 className="txt-ObrasDestacadas">OBRAS DESTACADAS</h1>
+            <h1 className="txt-ObrasDestacadas">{props.tituloObras}</h1>
 
             <div className='contenedor-pintura1'>
                 <div className='elemento1'></div>

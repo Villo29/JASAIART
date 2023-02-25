@@ -1,8 +1,8 @@
-import ImagenCarrusel from '../../assets/img/imagenCarrusel.jpg'
-import btnArrow1 from '../../assets/img/btnArrow.png'
-import btnArrow2 from '../../assets/img/btnArrow2.png'
-import btnCarrusel1 from '../../assets/img/btn-carrusel0.png'
-import btnCarrusel2 from '../../assets/img/btn-carrusel1.png'
+import ImagenCarrusel from '../../assets/images/imagenCarrusel.jpg'
+import btnArrow1 from '../../assets/images/btnArrow.png'
+import btnArrow2 from '../../assets/images/btnArrow2.png'
+import btnCarrusel1 from '../../assets/images/btn-carrusel0.png'
+import btnCarrusel2 from '../../assets/images/btn-carrusel1.png'
 import '../../assets/styles/CarruselLandingPage.css'
 
 function CarruselLandingPage() {

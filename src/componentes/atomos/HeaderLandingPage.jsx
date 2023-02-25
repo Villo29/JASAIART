@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import LogoJasaiArt from '../../assets/img/JasaiART.png'
+import LogoJasaiArt from '../../assets/images/JasaiART.png'
 import '../../assets/styles/HeaderLandingPage.css'
 
 function HeaderLandingPage() {

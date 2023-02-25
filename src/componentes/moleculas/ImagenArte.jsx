@@ -1,9 +1,9 @@
 import '../../assets/styles/ImagenArte.css'
 
-function ImagenArte() {
+function ImagenArte(props) {
     return (
             <div className='contenedor-tarjeta2'>
-                <h1 className='text-Adjunte'>ADJUNTE IMAGEN</h1>
+                <h1 className='text-Adjunte'>{props.txtImagen}</h1>
                 <input type="text" className='input-name'/>
                 <button className='btn-examianr'>EXAMINAR</button>
             </div>

@@ -1,4 +1,4 @@
-import ImagenRegalaArte from '../../assets/img/imgRegalaArte.png'
+import ImagenRegalaArte from '../../assets/images/imgRegalaArte.png'
 import '../../assets/styles/RegalaArte.css'
 
 function RegalaArte() {
