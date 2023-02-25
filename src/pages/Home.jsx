@@ -11,7 +11,6 @@ function Home() {
         <Header></Header>
         <Footer></Footer>
         <ImgText></ImgText>
-
         </div>
 
     );
