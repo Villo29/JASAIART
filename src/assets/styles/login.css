@@ -68,6 +68,15 @@ color: #BB9254;
 
     background: #F8CA76;
 }
+.con{
+    position: absolute;
+    width: 446px;
+    height: 38px;
+    left: 121px;
+    top: 557px;
+
+    background: #F8CA76;
+}
 
 .contra{
     position: absolute;

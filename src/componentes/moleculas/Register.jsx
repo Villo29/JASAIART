@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import Fondo from "../../assets/images/imgR.png";
 import Logo from "../../assets/images/JasaiART.png"
@@ -5,6 +6,7 @@ import "../../assets/styles/Registro.css";
 
 function RegistroL() {
     return ( 
+        
         <>
         <div>
         <img src={Fondo} alt=""  className="imgR"/>
