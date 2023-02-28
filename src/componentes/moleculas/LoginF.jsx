@@ -39,7 +39,7 @@ function Login() {
                     <input type="text" value={stateForm.Correo} name="Correo" className="inputL"  />
                 <div>
                     <h3 className="contra">Contraseña</h3>
-                    <input type="text" value={stateForm.Contraseña} name="Contraseña" className="contras"/>
+                    <input type="password" value={stateForm.Contraseña} name="Contraseña" className="contras"/>
                 </div>
                 <div>
                     <h3 className="name">Nombre</h3>
