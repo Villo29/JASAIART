@@ -1,6 +1,5 @@
 import {useRef, useState} from 'react';
 import { Link } from "react-router-dom";
-import {useNavigate} from 'react-router-dom';
 import Logo from "../../assets/images/JasaiART.png";
 import Foto from "../../assets/images/Limg.png";
 import "../../assets/styles/login.css"
@@ -30,16 +29,10 @@ function Login() {
             alert(JSON.stringify(data));
         });
         };
-        const navigateBus = useNavigate();
-        const Alta=(e) =>{
-        e.preventDefault();
-        navigateBus("/AltaBuss")
-        }
     return (
             <>
-            
-            <div className="Form-body">
-                    <form className='login-form' ref={formDataF}>
+            <div >
+                    <form ref={formDataF}>
                     <img src={Logo} alt=""  className="imgL"/>
                     <h3 className='welco'>BIENVENIDO JASAI ART</h3>
                     <h3 className="email">Correo: </h3>
@@ -49,7 +42,7 @@ function Login() {
                     <input type="text" value={stateForm.Contraseña} name="Contraseña" className="contras"/>
                 </div>
                 <div>
-                    <h3 className="contra">Nombre</h3>
+                    <h3 className="name">Nombre</h3>
                     <input type="text" value={stateForm.Nombre} name="Nombre" className="con"/>
                 </div>
                 <div>
