@@ -4,7 +4,7 @@ import Login from "../componentes/moleculas/LoginF";
 import Registro from "../pages/Registro";
 import LandingPage from "../pages/LandingPage";
 import VenderArte from "../pages/VenderArte";
-
+import Carrito from "../pages/Carrito";
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <Route path="/Registrase" element={<Registro/>}/>
         <Route path="/JasaiArt" element={<LandingPage/>}/>
         <Route path="/VenderArte" element={<VenderArte/>}/>
+        <Route path="/Carrito" element={<Carrito/>}/>
         </Routes>
         </BrowserRouter>
      );

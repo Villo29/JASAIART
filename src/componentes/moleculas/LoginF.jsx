@@ -1,4 +1,5 @@
 import {useRef, useState} from 'react';
+import { Navigate, useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/JasaiART.png";
 import Foto from "../../assets/images/Limg.png";
@@ -6,9 +7,13 @@ import "../../assets/styles/login.css"
 
 function Login() {
     const [stateForm,setStateForm]=useState('')
+    const navigateL = useNavigate();
     const formDataF = useRef();
     const handlerClick=(e)=>{
         e.preventDefault();
+        navigateL ("/JasaiArt")
+
+
         const formData = new FormData(formDataF.current);
         let URI = "http://54.85.130.168:3000/Usuarios";
         let options = {
@@ -54,11 +59,9 @@ function Login() {
                     </form>
                     <h3 className="op">Olvidaste tu contraseña</h3>
                 </div>
-                        <Link to="/JasaiArt">
                         <div>
                             <button onClick={handlerClick} id="buton" >Login</button>
                         </div>
-                        </Link>
                     <div>
                         <h3 id="create" >¿No tienes cuenta?</h3>
                         <Link to="/Registrase">

@@ -1,11 +1,10 @@
 
 .he{
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    gap: 720px;
+    
     background: #EE3B24;
 }
 
@@ -93,8 +92,8 @@ color: #FFFFFF;
 position: relative;
 width: 97px;
 height: 55px;
-left: 1312px;
-top: 0px;
+left: 12px;
+top: -10px;
 /* h3 párrafo */
 font-family: 'Comfortaa';
 font-style: normal;

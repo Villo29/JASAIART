@@ -39,4 +39,4 @@ function FooterLandingPage() {
     );
 }
 
-export default FooterLandingPage;
+export default FooterLandingPage; 
