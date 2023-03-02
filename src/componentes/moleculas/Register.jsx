@@ -1,5 +1,5 @@
 import { useRef,useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import Fondo from "../../assets/images/imgR.png";
 import Logo from "../../assets/images/JasaiART.png"
 import "../../assets/styles/Registro.css";
@@ -10,7 +10,7 @@ function RegistroL() {
     const handlerClick=(e)=>{
         e.preventDefault();
         const formData = new FormData(formDataF.current);
-        let URI = "http://54.85.130.168:3000/Usuarios";
+        let URI = "http://jasaiart-api.iothings.com.mx:3000/Usuarios";
         let options = {
         method: "POST",
         headers: {

@@ -2,7 +2,7 @@
 
 import FooterCarrito from "../componentes/atomos/FooterCarrito";
 import HeaaderCarrito from "../componentes/atomos/HeaderCarrito";
-
+import ProductosCarrito from "../componentes/moleculas/CarritoC";
 
 
 
@@ -11,6 +11,7 @@ function Carrito() {
         
         <>
         <HeaaderCarrito></HeaaderCarrito>
+        <ProductosCarrito></ProductosCarrito>
         <FooterCarrito></FooterCarrito>
         </>
     );

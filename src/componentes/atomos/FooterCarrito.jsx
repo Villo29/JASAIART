@@ -12,7 +12,6 @@ import '../../assets/styles/FooterCarrito.css'
 function FooterCarrito() {
     return (
         <div id='footer'>
-
             <div>
             <img src={LogoJasaiWhite} className="logoJasaiF"/>
                 <h1 className='txt-contactanosF'>CONTÁCTANOS</h1>

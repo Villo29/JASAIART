@@ -4,13 +4,10 @@ import "../../assets/styles/HeaderCarrito.css"
 
 function HeaaderCarrito() {
     return ( 
-<>
-            <header id="ContenedorHeader">
-            <img src={Logo} id="LogoH" />
-            <h4 className="text">Mi Carrito</h4>
-            </header>
-</>
-
+        <div id='contenedorHeader'>
+        <img src={Logo} id="LogoJasai"/>
+        <h2 id='txt-FiltrarPrecio'>Carrito</h2>
+    </div>
     );
 }
 
