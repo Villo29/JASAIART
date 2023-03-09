@@ -9,9 +9,8 @@ function Home() {
         <div className="fondo">
         
         <Header></Header>
-        <Footer></Footer>
         <ImgText></ImgText>
-
+        <FooterLandingPage></FooterLandingPage>
         </div>
 
     );
