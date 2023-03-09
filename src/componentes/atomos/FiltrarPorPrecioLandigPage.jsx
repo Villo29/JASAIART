@@ -2,8 +2,9 @@ import '../../assets/styles/FiltrarPorPrecioLandingPage.css'
 
 function FiltrarPorPrecioLandingPage() {
     return (
-        <div className='contenedorFiltrarPrecio'>
-            <h4 className='txt-filtrarPrecio'>FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO</h4>
+        <div className="contenedorPrecios">
+            <h1 id='txt-FiltrarPrecio'>FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO -
+                FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO - FILTRAR POR PRECIO </h1>
         </div>
     );
 }

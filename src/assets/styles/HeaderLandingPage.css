@@ -1,57 +1,52 @@
-.LogoJasai{
-    width: 54px;
-    height: 55px;
-
-    position: absolute;
-    left: 29px;
-    top: 0px;
+* {
+    box-sizing: border-box;
 }
 
-.contenedorHeader{
-    position: absolute;
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    width: 1519px;
-    height: 55px;
-
-    left: 0px;
-    top: 0px;
-
+.header {
     background-color: #EE3B24;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 20%;
 }
 
-h2{
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
 
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
     color: #EBDFC5;
 }
 
-.txt-FiltrarPrecio{
-    position: absolute;
-    width: 213px;
-    height: 55px;
-    top: -15px;
-    left: 800px;
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    font-family: 'Comfortaa';
+    font-size: 18px;
 }
 
-.txt-VenderArte{
-    position: absolute;
-    width: 213px;
-    height: 55px;
-    left: 1065px;
-    top: -15px;
-}
+@media screen and (max-width: 700px) {
 
-.txt-tecnicas{
-    position: absolute;
-    width: 213px;
-    height: 55px;
-    left: 1306px;
-    top: -15px;
+    nav,
+    .row {
+        flex-direction: column;
+    }
 }

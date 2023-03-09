@@ -1,73 +1,52 @@
-.contenedor-RegalaArte{
-    position: absolute;
-    width: 100%;
-    height: 645px;
-    left: 0px;
-    top: 640px;
-
-    background: #0651A2;
+* {
+    box-sizing: border-box;
 }
 
-.txt-RegalaArte1{
-    position: absolute;
-    
-    left: 300px;
-    top: 232.5px;
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.RegalaArte {
+    flex: 58%;
+    background-color: #0651A2;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-color1 {
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 54px;
-
+    font-size: 44px;
     text-align: center;
-
-    color: #0651a26e;
-
     text-shadow: 0px 2px 4px #F46044;
 }
 
-.txt-RegalaArte2{
-    position: absolute;
-    
-    left: 300px;
-    top: 279px;
-
+.txt-color2 {
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 54px;
-    
-    text-align: center;
-
+    font-size: 44px;
     color: #EBDFC5;
-
+    text-align: center;
     text-shadow: 3px 3px 4px #F46044;
 }
 
-.txt-RegalaArte3{
-    position: absolute;
-    
-    left: 300px;
-    top: 325.5px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 54px;
-    
-    text-align: center;
-
-    color: #0651a26e;
-
-    text-shadow: 0px 3px 4px #F46044;
+.imagenRegalaArte {
+    flex: 42%;
+    background-color: #0651A2;
+    padding: 20px;
 }
 
-.img-RegalaArte{
-    position: absolute;
-    
-    left: 846px;
-    top: 45px;
+img {
+    width: 100%;
+    height: 100%;
 }

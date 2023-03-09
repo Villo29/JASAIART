@@ -3,12 +3,17 @@ import '../../assets/styles/RegalaArte.css'
 
 function RegalaArte() {
     return (
-        <div className='contenedor-RegalaArte'>
-            <h1 className='txt-RegalaArte1'>REGALA ARTE</h1>
-            <h1 className='txt-RegalaArte2'>REGALA ARTE</h1>
-            <h1 className='txt-RegalaArte3'>REGALA ARTE</h1>
-            <img src={ImagenRegalaArte} className="img-RegalaArte"/>
-        </div>
+        <div className="row">
+        <div className="RegalaArte">
+            <h1 className='txt-color1'>REGALA ARTE</h1>
+            <h1 className='txt-color2'>REGALA ARTE</h1>
+            <h1 className='txt-color1'>REGALA ARTE</h1>
+        </div>            
+
+        <div className="imagenRegalaArte">
+            <img src={ImagenRegalaArte}/>
+        </div>            
+    </div>
     );
 }
 
