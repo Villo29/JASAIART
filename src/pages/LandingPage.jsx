@@ -10,14 +10,14 @@ import FooterLandingPage from '../componentes/atomos/FooterLandingPage';
 function LandingPage() {
     return (
         <>
-        <HeaderLandingPage></HeaderLandingPage>
-        <CarruselLandingPage/>
-        <RegalaArte/>
-        <FiltrarPorPrecioLandingPage/>
-        <PreciosLandingPage/>
-        <PorTecnicaLandingPage/>
-        <ObrasDestacadas/>
-        <FooterLandingPage/>
+            <HeaderLandingPage></HeaderLandingPage>
+            <CarruselLandingPage />
+            <RegalaArte />
+            <FiltrarPorPrecioLandingPage />
+            <PreciosLandingPage />
+            <PorTecnicaLandingPage />
+            <ObrasDestacadas />
+            <FooterLandingPage />
         </>
     );
 }

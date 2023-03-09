@@ -5,14 +5,12 @@ import "../assets/styles/home.css"
 
 
 function Home() {
-    return ( 
-        <div className="fondo">
-        
-        <Header></Header>
-        <ImgText></ImgText>
-        <Footer></Footer>
-        </div>
-
+    return (
+        <>
+            <Header></Header>
+            <ImgText></ImgText>
+            <Footer></Footer>
+        </>
     );
 }
 

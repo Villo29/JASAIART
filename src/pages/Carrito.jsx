@@ -8,11 +8,11 @@ import ProductosCarrito from "../componentes/moleculas/CarritoC";
 
 function Carrito() {
     return (
-        
+
         <>
-        <HeaaderCarrito></HeaaderCarrito>
-        <ProductosCarrito></ProductosCarrito>
-        <FooterCarrito></FooterCarrito>
+            <HeaaderCarrito></HeaaderCarrito>
+            <ProductosCarrito></ProductosCarrito>
+            <FooterCarrito></FooterCarrito>
         </>
     );
 }

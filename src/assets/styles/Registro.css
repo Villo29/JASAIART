@@ -1,25 +1,25 @@
-#welco{
+#welco {
     position: absolute;
     width: 446px;
     height: 27px;
     left: 878px;
     top: 230px;
     /* h1 párrafo */
-    
+
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 27px;
     /* identical to box height */
-    
+
     text-align: center;
-    
+
     color: #BB9254;
 }
 
-.imgR{
-    
+.imgR {
+
     position: absolute;
     width: 720px;
     height: 1024px;
@@ -27,7 +27,8 @@
     top: 0px;
 }
 
-.Logo{
+
+.Logo {
     position: absolute;
     width: 212px;
     height: 195px;
@@ -35,7 +36,7 @@
     top: 36px;
 }
 
-.inputR{
+.inputR {
     position: absolute;
     width: 446px;
     height: 30px;
@@ -44,7 +45,7 @@
     background: #F8CA76;
 }
 
-.emailR{
+.emailR {
     position: absolute;
     width: 77px;
     height: 22px;
@@ -59,24 +60,24 @@
     color: #BB9254;
 }
 
-.contraR{
+.contraR {
 
-        position: absolute;
-        width: 446px;
-        height: 38px;
-        left: 821px;
-        top: 420px;
-    
-        background: #F8CA76;
+    position: absolute;
+    width: 446px;
+    height: 38px;
+    left: 821px;
+    top: 420px;
+
+    background: #F8CA76;
 }
 
-.contrasR{
+.contrasR {
     position: absolute;
     width: 213px;
     height: 22px;
     left: 821px;
     top: 380px;
-/* h2 párrafo */
+    /* h2 párrafo */
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
@@ -85,7 +86,7 @@
     color: #BB9254;
 }
 
-#butonR{
+#butonR {
     position: absolute;
     width: 212px;
     height: 48px;
@@ -95,7 +96,7 @@
 }
 
 
-#Login{
+#Login {
     position: absolute;
     width: 213px;
     height: 22px;
@@ -111,7 +112,7 @@
     color: #FE745A;
 }
 
-#Login2{
+#Login2 {
     position: absolute;
     width: 213px;
     height: 19px;
@@ -129,13 +130,13 @@
 }
 
 
-#name{
+#name {
     position: absolute;
     width: 213px;
     height: 22px;
     left: 821px;
     top: 465px;
-/* h2 párrafo */
+    /* h2 párrafo */
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
@@ -145,7 +146,7 @@
 }
 
 
-#con{
+#con {
     position: absolute;
     width: 446px;
     height: 38px;
@@ -153,4 +154,17 @@
     top: 507px;
 
     background: #F8CA76;
+}
+
+
+#mi-imagen {
+    width: 100%;
+    height: auto;
+}
+
+/* Media query para ocultar la imagen en vista móvil */
+@media screen and (max-width: 768px) {
+    #mi-imagen {
+        display: none;
+    }
 }

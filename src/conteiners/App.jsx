@@ -8,18 +8,18 @@ import Carrito from "../pages/Carrito";
 
 
 function App() {
-    return ( 
+    return (
         <BrowserRouter>
-        <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/Login" element={<Login/>}/>
-        <Route path="/Registrase" element={<Registro/>}/>
-        <Route path="/JasaiArt" element={<LandingPage/>}/>
-        <Route path="/VenderArte" element={<VenderArte/>}/>
-        <Route path="/Carrito" element={<Carrito/>}/>
-        </Routes>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/Login" element={<Login />} />
+                <Route path="/Registrase" element={<Registro />} />
+                <Route path="/JasaiArt" element={<LandingPage />} />
+                <Route path="/VenderArte" element={<VenderArte />} />
+                <Route path="/Carrito" element={<Carrito />} />
+            </Routes>
         </BrowserRouter>
-     );
+    );
 }
 
 export default App;

@@ -13,25 +13,25 @@ function FooterCarrito() {
     return (
         <div id='footer'>
             <div>
-            <img src={LogoJasaiWhite} className="logoJasaiF"/>
+                <img src={LogoJasaiWhite} className="logoJasaiF" />
                 <h1 className='txt-contactanosF'>CONTÁCTANOS</h1>
-            <img src={IconoWhatsapp} className="logoWhatsappF"/>
+                <img src={IconoWhatsapp} className="logoWhatsappF" />
                 <h2 className='txt-NumeroTelefonicoF'>+52 968 109 6112</h2>
-            <img src={IconoGmail} className="LogoGmailF"/>
+                <img src={IconoGmail} className="LogoGmailF" />
                 <h2 className='txt-emailF'>jasaiart@gmail.com</h2>
             </div>
 
             <div>
                 <h1 className='txt-RedesSocialesF'>REDES SOCIALES</h1>
-                <img src={IconoFB} className="logoFBF"/>
-                <img src={IconoInstagram} className="logoInstagramF"/>
-                <img src={IconoTwitter} className="logoTwitterF"/>
+                <img src={IconoFB} className="logoFBF" />
+                <img src={IconoInstagram} className="logoInstagramF" />
+                <img src={IconoTwitter} className="logoTwitterF" />
             </div>
 
             <div>
                 <h1 className='txt-MediosPagoF'>MEDIOS DE PAGO</h1>
-                <img src={IconoPaypal} className="logoPayPalF"/>
-                <img src={IconoVisa} className="logoVisaF"/>
+                <img src={IconoPaypal} className="logoPayPalF" />
+                <img src={IconoVisa} className="logoVisaF" />
             </div>
         </div>
 

@@ -1,47 +1,43 @@
-.footer{
-    position: absolute;
-    width: 100%;
-    height: 186px;
-    left: 0px;
-    top: 838px;
-    background: #000000;
+.footer {
+    background-color: #000000;
+    color: #d20a0a;
+    padding: 20px 0;
+    margin-top: 40%;
 }
 
-.acercaD{
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-   /* h2 párrafo */
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 22px;
-color: #FFFFFF;
+    align-items: center;
 }
 
-.publica{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    /* h2 párrafo */
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 32px;
-    color: #FFFFFF;
+.logo img {
+    height: 50px;
 }
 
-.about{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    /* h2 párrafo */
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 32px;
-    color: #FFFFFF;
+.redes-sociales {
+    margin-left: auto;
 }
+
+.redes-sociales a {
+    display: contents;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.redes-sociales a:hover {
+    background-color: #4267B2;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
