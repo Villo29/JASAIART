@@ -6,13 +6,28 @@ import '../../assets/styles/PorTecnicaLandingPage.css'
 
 function PorTecnicaLandingPage(props) {
     return (
-        <div className="contenedor">
-            <h1 className='txt-PorTecnica'>{props.tituloTecnica}</h1>
+        <div className="row-tecnica">
 
-            <img src={ImagenTecnica1} className="img-tecnica1"/>
-            <img src={ImagenTecnica2} className="img-tecnica2"/>
-            <img src={ImagenTecnica3} className="img-tecnica3"/>
-            <img src={ImagenTecnica4} className="img-tecnica4"/>
+            <div className="txt-tecnica">
+                <h1 className="txt-tecnica2">{props.tituloTecnica}</h1>
+            </div>
+
+            <div className="tecnica1">
+                <img src={ImagenTecnica1} />
+            </div>
+
+            <div className="tecnica2">
+                <img src={ImagenTecnica2} />
+            </div>
+
+            <div className="tecnica3">
+                <img src={ImagenTecnica3} />
+            </div>
+
+            <div className="tecnica4">
+                <img src={ImagenTecnica4} />
+            </div>
+
         </div>
     );
 }

@@ -1,0 +1,11 @@
+.ver-mas {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.boton-contenedor {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}

@@ -10,14 +10,14 @@ import FooterLandingPage from '../componentes/atomos/FooterLandingPage';
 function LandingPage() {
     return (
         <>
-        <HeaderLandingPage></HeaderLandingPage>
-        <CarruselLandingPage/>
-        <RegalaArte/>
-        <FiltrarPorPrecioLandingPage/>
-        <PreciosLandingPage/>
-        <PorTecnicaLandingPage tituloTecnica="POR TÉCNICA"/>
-        <ObrasDestacadas tituloObras="OBRAS DESTACADAS"/>
-        <FooterLandingPage numero="+52 968 109 6112" correo="jasaiart@gmail.com"/>
+            <HeaderLandingPage></HeaderLandingPage>
+            <CarruselLandingPage />
+            <RegalaArte />
+            <FiltrarPorPrecioLandingPage />
+            <PreciosLandingPage />
+            <PorTecnicaLandingPage tituloTecnica="POR TÉCNICA" />
+            <ObrasDestacadas tituloObras="OBRAS DESTACADAS" />
+            <FooterLandingPage></FooterLandingPage>
         </>
     );
 }

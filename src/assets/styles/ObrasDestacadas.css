@@ -1,283 +1,119 @@
-.txt-ObrasDestacadas{
-    position: absolute;
-    width: 329px;
-    height: 27px;
-    left: 32px;
-    top: 2056px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-
-    color: #F8CA76;
+.row-Obras {
+  display: flex;
+  flex-wrap: wrap;
+/*   background-color: #000; */
 }
 
-.contenedor-pintura1{
-    position: absolute;
-    width: 480px;
-    height: 392px;
-    left: 32px;
-    top: 2115px;
-
-    background: #0651A2;
+.divObras {
+  flex: 100%;
+  background-color: #000;
+  padding: 20px;
 }
 
-.contenedor-pintura2{
-    
-    position: absolute;
-    width: 480px;
-    height: 392px;
-    left: 512px;
-    top: 2115px;
-
-    background: #018045;
+.txtObras {
+  font-family: "Comfortaa";
+  font-style: normal;
+  color: #f8ca76;
+  justify-content: space-between;
+  text-align: left;
 }
 
-.contenedor-pintura3{
-    position: absolute;
-    width: 470px;
-    height: 392px;
-    left: 992px;
-    top: 2115px;
 
-    background: #EE3B24;
+
+
+
+
+.contenedorImagenes {
+  display: flex;
+  flex: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
 }
 
-.elemento1{
-    position: absolute;
-    width: 60px;
-    height: 392px;
-    left: -30px;
-    top: 0px;
-    background: #F8CA76;
+.columnasImagenesObras {
+  flex-basis: 30%;
+  margin: 10px;
 }
 
-.elemento2{
-    position: absolute;
-    width: 60px;
-    height: 392px;
-    left: 467px;
-    top: 0px;
-    background: #BB9254;;
+.imagenTexto1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0651A2;
+  padding: 20px;
 }
 
-.btn-vermas{
-    position: absolute;
-    left: 536.5px;
-    top: 2507px;
+.imagenTexto2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #018045;
+  padding: 20px;
 }
 
-.txt-vermas{
-    position: absolute;
-    left: 704.5px;
-    top: 2533px;
+.imagenTexto3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #EE3B24;
+  padding: 20px;
+}
+/* 
+img {
+  max-width: 100%;
+  height: auto;
+} */
 
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-    text-align: center;
-
-    color: #F46044;
+.txt-PrecioObraDestacada {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.elementoInterno1{
-    position: absolute;
-    width: 214px;
-    height: 267px;
-    left: 40px;
-    top: 63px;
-
-    background: #000000;
+.txt-PrecioObraDestacada p:first-child {
+  margin-bottom: 5px;
 }
 
-.elementoInterno2{
-    position: absolute;
-    width: 214px;
-    height: 267px;
-    left: 10px;
-    top: 63px;
-    
-    background: #BB9254;
+.nombreObra{
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;  
+  color: #EBDFC5;
+  
 }
 
-.elementoInterno3{
-    position: absolute;
-    width: 214px;
-    height: 267px;
-    left: 10px;
-    top: 63px;
-    
-    background: #0651A2;
+.PintorObra{
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  
+  color: #EBDFC5;
 }
 
-.img-1{
-    position: absolute;
-    left: 53px;
-    top: 75px;
+.DescripcionObra{
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 19px;
+
+  color: #EBDFC5;
 }
 
-.img-2{
-    position: absolute;
-    left: 20px;
-    top: 75px;
+@media only screen and (max-width: 768px) {
+  .columnasImagenesObras {
+    flex-basis: 45%;
+  }
 }
 
-.img-3{
-    position: absolute;
-    left: 23px;
-    top: 75px;
-}
-
-.txt-precio1{
-    position: absolute;
-    width: 95px;
-    height: 27px;
-    left: 240px;
-    top: 130px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-
-    color: #EBDFC5;
-}
-
-.txt-titulo1{
-    position: absolute;
-    width: 96px;
-    height: 20px;
-    left: 263px;
-    top: 172px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-
-    color: #EBDFC5;
-
-}
-
-.txt-artista1{
-    position: absolute;
-    width: 212px;
-    height: 19px;
-    left: 263px;
-    top: 194px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 19px;
-
-    color: #EBDFC5;
-
-}
-
-.txt-precio2{
-    position: absolute;
-    width: 95px;
-    height: 27px;
-    left: 210px;
-    top: 130px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-
-    color: #EBDFC5;
-}
-
-.txt-titulo2{
-    position: absolute;
-    width: 96px;
-    height: 20px;
-    left: 233px;
-    top: 172px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-
-    color: #EBDFC5;
-
-}
-
-.txt-artista2{
-    position: absolute;
-    width: 212px;
-    height: 19px;
-    left: 233px;
-    top: 194px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 19px;
-
-    color: #EBDFC5;
-
-}
-
-.txt-precio3{
-    position: absolute;
-    width: 95px;
-    height: 27px;
-    left: 210px;
-    top: 130px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-
-    color: #EBDFC5;
-}
-
-.txt-titulo3{
-    position: absolute;
-    width: 96px;
-    height: 20px;
-    left: 233px;
-    top: 172px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-
-    color: #EBDFC5;
-
-}
-
-.txt-artista3{
-    position: absolute;
-    width: 212px;
-    height: 19px;
-    left: 233px;
-    top: 194px;
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 19px;
-
-    color: #EBDFC5;
-
+@media only screen and (max-width: 576px) {
+  .columnasImagenesObras {
+    flex-basis: 100%;
+  }
 }

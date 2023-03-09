@@ -1,29 +1,17 @@
-.contenedorFiltrarPrecio{
-    position: absolute;
-    width: 100%;
-    height: 46px;
-    left: 0px;
-    top: 1285px;
-
-    background: #EE3B24;
+.contenedorPrecios{
+    background-color: #EE3B24;
+    display: flex;
+/*     justify-content: flex-end; */
+    align-items: center;
+    height: 5%;
+    padding: 5px 5%;
 }
 
-.txt-filtrarPrecio{
-    position: absolute;
-    width: 1376px;
-    height: 46px;
-    left: 71.5px;
-    top: -20px;
-/*     top: 1299px; */
-
+.txt-FiltrarPrecio{
+    display: inline-block;
+    padding: 0 20px;
     font-family: 'Comfortaa';
     font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-
+    font-size: 16px;
     color: #EBDFC5;
-
 }

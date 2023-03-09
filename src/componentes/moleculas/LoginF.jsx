@@ -1,36 +1,66 @@
+import {useRef, useState} from 'react';
 import { Link } from "react-router-dom";
+import {useNavigate} from 'react-router-dom';
 import Logo from "../../assets/images/JasaiART.png";
 import Foto from "../../assets/images/Limg.png";
 import "../../assets/styles/login.css"
 
 function Login() {
+    const [stateForm,setStateForm]=useState('')
+    
+    const formDataF = useRef();
+    const handlerClick=(e)=>{
+        e.preventDefault();
+        const formData = new FormData(formDataF.current);
+        let URI = "http://54.85.130.168:3000/Usuarios";
+        let options = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+/*             Nombre: formData.get("Nombre"), */
+            "Correo": formData.get("Correo"),
+            "Contraseña": formData.get("Contraseña")
+        }),
+        };
+        console.log(options.body);
+        fetch(URI, options)
+        .then((response) => response.json())
+        .then((data) => {
+            alert(JSON.stringify(data));
+        });
+        };
+        const navigateBus = useNavigate();
+        const Alta=(e) =>{
+        e.preventDefault();
+        navigateBus("/AltaBuss")
+        }
     return (
             <>
-            <div className="Form">
-            <img src={Logo} alt=""  className="imgL"/>
-                <div className="welco">
-                    <h3>BIENVENIDO JASAI ART</h3>
-                </div>
-                <div > 
+            
+            <div className="Form-body">
+                    <form className='login-form' ref={formDataF}>
+                    <img src={Logo} alt=""  className="imgL"/>
+                    <h3 className='welco'>BIENVENIDO JASAI ART</h3>
                     <h3 className="email">Correo: </h3>
-                    <input type="text" className="inputL"  />
-                </div>
+                    <input type="text" name="Correo" className="inputL"  />
                 <div>
                     <h3 className="contra">Contraseña</h3>
-                    <input type="password" name="" id=""  className="contras"/>
+                    <input type="password" name="Contraseña" className="contras"/>
                 </div>
                 <div>
                     <img src={Foto} alt="" className="foto1"/>
                 </div>
-                <div >
                     <div className="check">
                     <input type="checkbox" name="" id=""  /> Mantener Activo    
                     </div>
+                    </form>
                     <h3 className="op">Olvidaste tu contraseña</h3>
                 </div>
                         <Link to="/JasaiArt">
                         <div>
-                            <button type="submit" id="buton" >Login</button>
+                            <button onClick={handlerClick} id="buton" >Login</button>
                         </div>
                         </Link>
                     <div>
@@ -39,7 +69,6 @@ function Login() {
                         <h3 id="create2">Registrate</h3>
                         </Link>
                     </div>
-            </div>
             </>
     );
 }

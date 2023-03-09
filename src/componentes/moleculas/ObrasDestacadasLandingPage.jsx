@@ -1,42 +1,53 @@
-import BtnVerMas from '../../assets/images/btn-vermas.png'
-import ImagenCuadro1 from '../../assets/images/imgCuadro1.jpg'
-import ImagenCuadro2 from '../../assets/images/imgCuadro2.jpg'
-import ImagenCuadro3 from '../../assets/images/imgCuadro3.jpg'
+import ObraDestacada1 from '../../assets/images/ObraDestacada1.png'
+import ObraDestacada2 from '../../assets/images/ObraDestacada2.png'
+import ObraDestacada3 from '../../assets/images/ObraDestacada3.png'
 import '../../assets/styles/ObrasDestacadas.css'
 
 function ObrasDestacadas(props) {
     return (
-        <div>
-            <h1 className="txt-ObrasDestacadas">{props.tituloObras}</h1>
 
-            <div className='contenedor-pintura1'>
-                <div className='elemento1'></div>
-                <div className='elementoInterno1'></div>
-                <img src={ImagenCuadro1} className="img-1"/>
-                <h1 className='txt-precio1'>$299</h1>
-                <h3 className='txt-titulo1'>Bird</h3>
-                <h4 className='txt-artista1'>McGill Library</h4>
+        <div className="row-Obras">
+            <div className="divObras">
+                <h1 className='txtObras'>{props.tituloObras}</h1>
             </div>
 
-            <div className='contenedor-pintura2'>
-                <div className='elementoInterno2'></div>
-                <img src={ImagenCuadro2} className="img-2"/>
-                <h1 className='txt-precio2'>$499</h1>
-                <h3 className='txt-titulo2'>Above</h3>
-                <h4 className='txt-artista2'>Adriana Geo</h4>
+            <div className="contenedorImagenes">
+
+                <div className="columnasImagenesObras">
+                    <div className="imagenTexto1">
+                        <img src={ObraDestacada1} className="ImagenesObras" />
+                        <div className="txt-PrecioObraDestacada">
+                            <p className='nombreObra'>$299</p>
+                            <p className='PintorObra'>Bird</p>
+                            <p className='DescripcionObra'>McGill Library</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="columnasImagenesObras">
+                    <div className="imagenTexto2">
+                        <img src={ObraDestacada2} className="ImagenesObras" />
+                        <div className="txt-PrecioObraDestacada">
+                            <p className='nombreObra'>$499</p>
+                            <p className='PintorObra'>Abode</p>
+                            <p className='DescripcionObra'>Adriana Geo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="columnasImagenesObras">
+                    <div className="imagenTexto3">
+                        <img src={ObraDestacada3} className="ImagenesObras" />
+                        <div className="txt-PrecioObraDestacada">
+                            <p className='nombreObra'>$499</p>
+                            <p className='PintorObra'>Briming</p>
+                            <p className='DescripcionObra'>Museums Trust</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div className='contenedor-pintura3'>
-                <div className='elemento2'></div>
-                <div className='elementoInterno3'></div>
-                <img src={ImagenCuadro3} className="img-3"/>
-                <h1 className='txt-precio3'>$499</h1>
-                <h3 className='txt-titulo3'>Birming</h3>
-                <h4 className='txt-artista3'>Museums Trust</h4>
-            </div>
-
-            <img src={BtnVerMas} className="btn-vermas"/>
-            <h1 className='txt-vermas'>VER MÁS</h1>
         </div>
     );
 }
