@@ -3,7 +3,7 @@ import '../../assets/styles/TipoTecnica.css'
 function TipoTecnica() {
     return (
         <div className='contenedor-tarjeta4'>
-            <h1 className='text-precio'>TIPO DE TÉCNICA</h1>
+            <h1 className='text-precio'>{props.txtTecnica}</h1>
             <select name="select">
                 <option value="value1">Acrilica</option>
                 <option value="value2" selected>Acuarela</option>

@@ -4,8 +4,10 @@ function ImagenArte() {
     return (
             <div className='contenedor-tarjeta2'>
                 <h1 className='text-Adjunte'>ADJUNTE IMAGEN</h1>
-                <input type="text" className='input-name'/>
-                <button className='btn-examianr'>EXAMINAR</button>
+                <div>
+                <button  className='btn-examianr'>EXAMINAR</button>
+                <input type="file" className='input-name'/>
+                </div>
             </div>
     );
 }

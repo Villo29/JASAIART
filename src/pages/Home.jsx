@@ -1,7 +1,7 @@
 import Header from "../componentes/atomos/header";
-import Footer from "../componentes/atomos/footer";
 import ImgText from "../componentes/moleculas/imagen1";
-import "../assets/styles/home.css"
+import FooterLandingPage from "../componentes/atomos/FooterLandingPage";
+
 
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
         <ImgText></ImgText>
 
         </div>
-        // hello
+
     );
 }
 

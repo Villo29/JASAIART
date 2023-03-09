@@ -1,54 +1,84 @@
-.img1{
-    box-sizing: border-box;
-    position: absolute;
-    width: 471.38px;
-    height: 208.36px;
-    left: 882.62px;
-    top: 115px;
-    mix-blend-mode: multiply;
-    border: 1px solid #000000;
-
+.image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
 }
 
-#text1{
-    position: absolute;
-    width: 597.03px;
-    height: 328.26px;
-    left: 91.41px;
-    top: 142.52px;
-/* h4 párrafo */
+.text-container {
+    flex: 1;
+}
+
+
+
+.text-container h3 {
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 19px;
-    color: #000000;
 }
 
-#text2{
-    position: absolute;
-    width: 513.2px;
-    height: 50px;
-    left: 728.27px;
-    top: 554.78px;
-/* h3 párrafo */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    order: 2;
+    /* Ordenamos la imagen en segundo lugar */
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+    }
+
+    .responsive-image {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* ////// */
+
+
+.image-with-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-with-text img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.image-with-text .text {
+    max-width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .image-with-text {
+        flex-direction: column;
+    }
+
+    .image-with-text img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .image-with-text .text {
+        max-width: 100%;
+    }
+}
+
+h4 {
     font-family: 'Comfortaa';
     font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 19px;
-    color: #000000;
-}
-
-
-.img3{
-    /* Rectangle 116 */
-
-position: absolute;
-width: 573.22px;
-height: 263px;
-left: 130.53px;
-top: 520.78px;
-
-border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
 }

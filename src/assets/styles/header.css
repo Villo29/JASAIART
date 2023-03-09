@@ -1,109 +1,74 @@
-
-.he{
+nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    gap: 720px;
-    background: #EE3B24;
+    padding: 20px;
+    background-color:#EE3B24;;
+    color: #fff;
 }
 
+.logo  {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    flex: none;
+    width: 54px;
+    height: 55px;
+}
 
-.he2{
+.menu {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 18px;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.logo{
-    position: absolute;
-    width: 94px;
-    height: 94px;
-    left: 55px;
-    top: 3px;
+.menu li {
+    margin-left: 20px;
 }
 
-#Login1{
-/* Login */
-position: absolute;
-width: 96px;
-height: 55px;
-left: 847px;
-top: 0px;
-/* h3 párrafo */
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
+.menu li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-
-#SobreP{
-/* Sobre Pintores */
-position: absolute;
-width: 212px;
-height: 55px;
-left: 963px;
-top: 0px;
-/* h3 párrafo */
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
 }
 
-
-#contacto{
-    /* Contacto */
-position: absolute;
-width: 97px;
-height: 55px;
-left: 1195px;
-top: 0px;
-/* h3 párrafo */
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
 }
 
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
 
+    .hamburger-menu {
+        display: block;
+    }
 
-#carrito{
-    /* Carrito */
-position: relative;
-width: 97px;
-height: 55px;
-left: 1312px;
-top: 0px;
-/* h3 párrafo */
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .hamburger-menu .bar {
+        width: 20px;
+    }
+}
+
+li{
+    color: #fff;
 }
