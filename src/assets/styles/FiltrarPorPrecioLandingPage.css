@@ -1,25 +1,18 @@
-.contenedorPrecios #txt-FiltrarPrecio h1 {
-    background-color: #EE3B24;
-    display: flex;
-/*     justify-content: flex-end; */
-    align-items: center;
-    height: 5%;
-    padding: 5px 5%;
-
-
-    display: inline-block;
-    padding: 0 20px;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-size: 16px;
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ee3b24;
+  }
+  
+  .texto {
+    font-size: 18px;
+    line-height: 1.5;
     color: #EBDFC5;
-}
-
-/* #txt-FiltrarPrecio h1{
-    display: inline-block;
-    padding: 0 20px;
-    font-family: 'Comfortaa';
+    text-align: center;
+    font-family: "Comfortaa";
     font-style: normal;
-    font-size: 16px;
-    color: #EBDFC5;
-} */
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+  }

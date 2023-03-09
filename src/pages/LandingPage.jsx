@@ -15,8 +15,8 @@ function LandingPage() {
             <RegalaArte />
             <FiltrarPorPrecioLandingPage />
             <PreciosLandingPage />
-            <PorTecnicaLandingPage />
-            <ObrasDestacadas />
+            <PorTecnicaLandingPage tituloTecnica="POR TÉCNICA" />
+            <ObrasDestacadas tituloObras="OBRAS DESTACADAS"/>
             <FooterLandingPage />
         </>
     );

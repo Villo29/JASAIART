@@ -5,9 +5,9 @@
     margin: 20px;
 }
 
-.text-container {
+/* .text-container {
     flex: 1;
-}
+} */
 
 
 
@@ -75,10 +75,3 @@
     }
 }
 
-h4 {
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-}

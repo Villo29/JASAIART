@@ -1,102 +1,36 @@
-.row-contenedor{
-    flex: 100%;
-    background-color: #000;
-    padding: 20px;
-}
-
-.contenedor-nav .contenedor-ul{
+.button-container {
     display: flex;
-    justify-content: space-between;
-    background-color: #000;
-    /* flex: wrap; */
-}
-
-.btn-precio1{
-    flex: 20%;
-    font-family: 'Comfortaa';
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px; 
+  }
+  
+  .button-container button {
+    font-family: "Comfortaa";
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 22px;
-    align-items: center;
-    text-align: center;
-    
-    color: #F46044;
-
-    width: 207px;
-    height: 72px;
-    background: #F8CA76;
-    border-radius: 10px;
-}
-
-.btn-precio2{
-    flex: 20%;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    align-items: center;
-    text-align: center;
-    
-    color: #F46044;
-
-    width: 207px;
-    height: 72px;
-    background: #F8CA76;
-    border-radius: 10px;
-}
-
-.btn-precio3{
-    flex: 20%;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    align-items: center;
-    text-align: center;
-    
-    color: #F46044;
-
-    width: 207px;
-    height: 72px;
-    background: #F8CA76;
-    border-radius: 10px;
-}
-
-.btn-precio4{
-    flex: 20%;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    align-items: center;
-    text-align: center;
-    
-    color: #F46044;
-
-    width: 207px;
-    height: 72px;
-    background: #F8CA76;
-    border-radius: 10px;
-}
-
-.btn-precio5{
-    flex: 20%;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    align-items: center;
-    text-align: center;
-    
-    color: #F46044;
-
-    width: 207px;
-    height: 72px;
-    background: #F8CA76;
-    border-radius: 10px;
-}
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f8ca76;
+    color: #f46044;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .button-container {
+      height: auto; 
+    }
+    .button-container button {
+      margin: 5px;
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
