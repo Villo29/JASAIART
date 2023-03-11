@@ -4,26 +4,36 @@ import Logo from "../../assets/images/JasaiART.png";
 
 
 function Header() {
-    return (  
+    return (
 
-            
-            <div className="he">
-                <img src={Logo} className="logo" alt="" />
-                <div className="he2">
-                <Link to="/Login">
-                <h3 id="Login1" > Login </h3>
-                </Link>
-                <Link to="/Sobre-Pintores">
-                    <h3 id="SobreP">Sobre Pintores</h3>
-                </Link>
-                <Link to="/Contacto">
-                    <h3 id="contacto">Contacto</h3>
-                </Link>
-                <Link to="/Carrito">
-                    <h3 id="carrito">Carrito</h3>
-                </Link>
+        <>
+            <nav className="headerInicio">
+                <div >
+                    <a href="#">
+                        <img src={Logo} alt="" class="logo" />
+                    </a>
                 </div>
-            </div>
+                <ul class="menu">
+                    <Link to="/Login">
+                        <li>Login</li>
+                    </Link>
+                    <Link to="/Contacto">
+                        <li>Contacto</li>
+                    </Link>
+                    <Link to="/Pintoroes">
+                        <li>Sobre Pintores</li>
+                    </Link>
+                    <Link to="/Carrito">
+                        <li>Carrito</li>
+                    </Link>
+                </ul>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </>
     );
 }
 

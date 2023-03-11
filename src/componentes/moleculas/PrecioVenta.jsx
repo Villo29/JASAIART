@@ -1,6 +1,6 @@
 import '../../assets/styles/PrecioVenta.css'
 
-function PrecioVenta(props) {
+function PrecioVenta() {
     return (
         <div className='contenedor-tarjeta3'>
             <h1 className='text-precio'>{props.txtPrecio}</h1>

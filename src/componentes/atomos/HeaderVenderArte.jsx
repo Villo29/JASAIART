@@ -1,5 +1,5 @@
-import Logo from '../../assets/images/JasaiART.png'
-import FotoPerfil from '../../assets/images/FotoPerfil.png'
+import Logo from '../../assets/img/JasaiART.png'
+import FotoPerfil from '../../assets/img/FotoPerfil.png'
 import '../../assets/styles/HeaderVenderArte.css'
 
 function HeaderVenderArte() {

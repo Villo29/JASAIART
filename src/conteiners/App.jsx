@@ -4,8 +4,8 @@ import Login from "../componentes/moleculas/LoginF";
 import Registro from "../pages/Registro";
 import LandingPage from "../pages/LandingPage";
 import VenderArte from "../pages/VenderArte";
-
-
+import Carrito from "../pages/Carrito";
+import SobrePintores from "../pages/SobrePintores";
 
 function App() {
     return (
@@ -16,6 +16,8 @@ function App() {
                 <Route path="/Registrase" element={<Registro />} />
                 <Route path="/JasaiArt" element={<LandingPage />} />
                 <Route path="/VenderArte" element={<VenderArte />} />
+                <Route path="/Carrito" element={<Carrito />} />
+                <Route path="/SobrePintores" element={<SobrePintores />} />
             </Routes>
         </BrowserRouter>
     );

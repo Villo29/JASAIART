@@ -1,6 +1,4 @@
-
-
-.form{
+.form {
     position: absolute;
     width: 562px;
     height: 724px;
@@ -9,7 +7,7 @@
     border: 5px red solid;
 }
 
-.imgL{
+.imgL {
     position: absolute;
     width: 212px;
     height: 195px;
@@ -17,25 +15,25 @@
     top: 30px;
 }
 
-.welco{
-position: absolute;
-width: 446px;
-height: 27px;
-left: 130px;
-top: 220px;
-/* h1 párrafo */
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 27px;
-/* identical to box height */
-text-align: center;
-color: #BB9254;
+.welco {
+    position: absolute;
+    width: 446px;
+    height: 27px;
+    left: 130px;
+    top: 220px;
+    /* h1 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: #BB9254;
 }
 
 
-.inputL{
+.inputL {
     position: absolute;
     width: 446px;
     height: 30px;
@@ -44,7 +42,7 @@ color: #BB9254;
     background: #F8CA76;
 }
 
-.email{
+.email {
     position: absolute;
     width: 77px;
     height: 22px;
@@ -59,80 +57,91 @@ color: #BB9254;
     color: #BB9254;
 }
 
-.contras{
+.contras {
     position: absolute;
     width: 446px;
     height: 38px;
     left: 121px;
-    top: 467px;
+    top: 407px;
 
     background: #F8CA76;
 }
 
-.contra{
+.con {
+    position: absolute;
+    width: 446px;
+    height: 38px;
+    left: 121px;
+    top: 497px;
+
+    background: #F8CA76;
+}
+
+.contra {
     position: absolute;
     width: 213px;
     height: 22px;
     left: 121px;
-    top: 419.9px;
-/* h2 párrafo */
+    top: 365px;
+    /* h2 párrafo */
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 22px;
     color: #BB9254;
+
 }
 
-.foto1{
+.foto1 {
     position: absolute;
     width: 720px;
     height: 1024px;
-    left: 720px;
-    top: 0px;
+    right: 0%;
+    top: 0%;
 
 }
 
-.check{
+.check {
 
-position: absolute;
-width: 213px;
-height: 20px;
-left: 121px;
-top: 527px;
-/* h3 párrafo */
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 20px;
-/* identical to box height */
-text-align: center;
-color: #F46044;
+    position: absolute;
+    width: 213px;
+    height: 20px;
+    left: 121px;
+    top: 587px;
+    /* h3 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #F46044;
 }
 
-.op{
+.op {
     position: absolute;
     width: 329px;
     height: 19px;
     left: 354px;
-    top: 510px;
+    top: 569px;
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 500;
-font-size: 17px;
-line-height: 19px;
-/* identical to box height */
-text-decoration-line: underline;
-color: #F46044;
+    font-size: 17px;
+    line-height: 19px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #F46044;
 }
 
-#create{
+#create {
     position: absolute;
     width: 213px;
     height: 22px;
     left: 121px;
-    top: 652px;
+    top: 722px;
     /* h2 párrafo */
     font-family: 'Comfortaa';
     font-style: normal;
@@ -143,12 +152,12 @@ color: #F46044;
     color: #FE745A;
 }
 
-#create2{
+#create2 {
     position: absolute;
     width: 213px;
     height: 19px;
     left: 354px;
-    top: 652px;
+    top: 722px;
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 500;
@@ -160,11 +169,43 @@ color: #F46044;
     color: #FE745A;
 }
 
-#buton{
+#buton {
     position: absolute;
     width: 212px;
     height: 48px;
     left: 238px;
-    top: 577px;
+    top: 647px;
     background: #F46044;
 }
+
+.name {
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 121px;
+    top: 455px;
+    /* h2 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #BB9254;
+}
+
+
+.imagen {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    right: 0%;
+    top: 0%;
+}
+
+@media screen and (max-width: 600px) {
+    .imagen {
+        display: none;
+        /* oculta la imagen cuando la pantalla es menor de 600px */
+    }
+}
+

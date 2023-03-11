@@ -1,6 +1,6 @@
 import '../../assets/styles/TipoTecnica.css'
 
-function TipoTecnica(props) {
+function TipoTecnica() {
     return (
         <div className='contenedor-tarjeta4'>
             <h1 className='text-precio'>{props.txtTecnica}</h1>

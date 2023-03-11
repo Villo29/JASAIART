@@ -2,8 +2,8 @@ import RegistroL from "../componentes/moleculas/Register";
 
 
 function Registro() {
-    
-    return ( 
+
+    return (
         <RegistroL></RegistroL>
     );
 }

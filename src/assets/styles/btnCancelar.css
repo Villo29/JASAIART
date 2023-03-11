@@ -1,4 +1,4 @@
-.contenedorCancelar{
+.contenedorCancelar {
     position: absolute;
     width: 213.48px;
     height: 35px;
@@ -7,7 +7,7 @@
 
     background: #F46044;
     border: 2px solid #F46044;
-    
+
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 600;

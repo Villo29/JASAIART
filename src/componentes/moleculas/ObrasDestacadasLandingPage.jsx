@@ -1,3 +1,4 @@
+
 import ObraDestacada1 from '../../assets/images/ObraDestacada1.png'
 import ObraDestacada2 from '../../assets/images/ObraDestacada2.png'
 import ObraDestacada3 from '../../assets/images/ObraDestacada3.png'
@@ -5,7 +6,6 @@ import '../../assets/styles/ObrasDestacadas.css'
 
 function ObrasDestacadas(props) {
     return (
-
         <div className="row-Obras">
             <div className="divObras">
                 <h1 className='txtObras'>{props.tituloObras}</h1>
@@ -45,9 +45,7 @@ function ObrasDestacadas(props) {
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
     );
 }

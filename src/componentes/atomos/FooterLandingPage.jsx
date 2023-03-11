@@ -6,12 +6,10 @@ import Instagram from '../../assets/images/IconoInstagram.png'
 import PayPal from '../../assets/images/IconoPayPal.png'
 import Visa from '../../assets/images/IconoVisa.png'
 import LogoFooter from '../../assets/images/JasaiArtWhite.png'
-
 import '../../assets/styles/FooterLandingPage.css'
 
 function FooterLandingPage() {
     return (
-
         <footer>
             <div className="container-footer">
                 <div className="logo-footer">
@@ -42,7 +40,8 @@ function FooterLandingPage() {
             </div>
         </footer>
 
+
     );
 }
 
-export default FooterLandingPage;
+export default FooterLandingPage; 
