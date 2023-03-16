@@ -1,0 +1,36 @@
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px; 
+  }
+  
+  .button-container button {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f8ca76;
+    color: #f46044;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .button-container {
+      height: auto; 
+    }
+    .button-container button {
+      margin: 5px;
+      padding: 5px;
+      font-size: 14px;
+    }
+  }

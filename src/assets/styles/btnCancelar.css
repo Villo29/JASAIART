@@ -1,0 +1,20 @@
+.contenedorCancelar {
+    position: absolute;
+    width: 213.48px;
+    height: 35px;
+    left: 550px;
+    top: 1410px;
+
+    background: #F46044;
+    border: 2px solid #F46044;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}

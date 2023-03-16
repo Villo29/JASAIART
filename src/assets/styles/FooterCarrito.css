@@ -1,0 +1,134 @@
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 186px;
+    left: 0px;
+    top: 838px;
+    background: #000000;
+}
+
+.logoJasaiF{
+    position: absolute;
+    width: 98px;
+    height: 114px;
+    left: 2rem;
+    top: 30px;
+}
+
+.txt-contactanosF{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.txt-NumeroTelefonicoF{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.txt-contactanosF{
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    left: 200px;
+    top: 0rem;
+}
+
+.txt-NumeroTelefonicoF{
+    position: absolute;
+    width: 329.23px;
+    height: 25px;
+    left: 310px;
+    top: 3rem;
+}
+
+.txt-emailF{
+    position: absolute;
+    width: 329.23px;
+    height: 25px;
+    left: 282px;
+    top: 6rem;
+}
+
+.logoWhatsappF{
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: 200px;
+    top: 4rem;
+}
+
+.LogoGmailF{
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: 200px;
+    top: 7rem;
+}
+
+.txt-RedesSocialesF{
+    position: absolute;
+    width: 329px;
+    height: 21px;
+    left: 600px;
+    top: 30px;
+}
+
+.logoFBF{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 600px;
+    top: 7rem;
+}
+
+.logoInstagramF{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 725px;
+    top: 7rem;
+}
+
+.logoTwitterF{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 850px;
+    top: 7rem;
+}
+
+.txt-MediosPagoF{
+    position: absolute;
+    width: 445px;
+    height: 21px;
+    left: 1030px;
+    top: 30px;
+}
+
+.logoPayPalF{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 1150px;
+    top: 6rem;
+}
+
+.logoVisaF{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 1270px;
+    top: 6rem;
+}

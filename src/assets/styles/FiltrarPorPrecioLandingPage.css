@@ -1,0 +1,18 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ee3b24;
+  }
+  
+  .texto {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #EBDFC5;
+    text-align: center;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+  }

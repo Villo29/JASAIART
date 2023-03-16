@@ -1,0 +1,57 @@
+.Header{
+    position: absolute;
+
+    width: 1519px;
+    height: 55px;
+
+    left: 0px;
+    top: 0px;
+
+    background-color: #EE3B24;
+}
+
+.Logo{
+    width: 54px;
+    height: 55px;
+
+    position: absolute;
+    left: 29px;
+    top: 0px;
+}
+
+.FotoPerfil{
+    position: absolute;
+    width: 55.96px;
+    height: 55px;
+    left: 1003px;
+    top: 0px;
+}
+
+h2{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #EBDFC5;
+}
+
+.txt-NameUser{
+    position: absolute;
+    width: 212px;
+    height: 55px;
+    left: 1079px;
+    top: -17px;
+}
+
+.txt-Ayuda{
+    position: absolute;
+    width: 96px;
+    height: 55px;
+    left: 1311px;
+    top: -17px;
+}

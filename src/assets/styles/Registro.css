@@ -1,0 +1,170 @@
+#welco {
+    position: absolute;
+    width: 446px;
+    height: 27px;
+    left: 878px;
+    top: 230px;
+    /* h1 párrafo */
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BB9254;
+}
+
+.imgR {
+
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.Logo {
+    position: absolute;
+    width: 212px;
+    height: 195px;
+    left: 995px;
+    top: 36px;
+}
+
+.inputR {
+    position: absolute;
+    width: 446px;
+    height: 30px;
+    left: 821px;
+    top: 319px;
+    background: #F8CA76;
+}
+
+.emailR {
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    left: 821px;
+    top: 276px;
+    /* h2 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #BB9254;
+}
+
+.contraR {
+
+    position: absolute;
+    width: 446px;
+    height: 38px;
+    left: 821px;
+    top: 420px;
+
+    background: #F8CA76;
+}
+
+.contrasR {
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 821px;
+    top: 380px;
+    /* h2 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #BB9254;
+}
+
+#butonR {
+    position: absolute;
+    width: 212px;
+    height: 48px;
+    left: 948px;
+    top: 597px;
+    background: #F46044;
+}
+
+
+#Login {
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 891px;
+    top: 672px;
+    /* h2 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #FE745A;
+}
+
+#Login2 {
+    position: absolute;
+    width: 213px;
+    height: 19px;
+    left: 1050px;
+    top: 672px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FE745A;
+}
+
+
+#name {
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 821px;
+    top: 465px;
+    /* h2 párrafo */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #BB9254;
+}
+
+
+#con {
+    position: absolute;
+    width: 446px;
+    height: 38px;
+    left: 821px;
+    top: 507px;
+
+    background: #F8CA76;
+}
+
+
+#mi-imagen {
+    width: 100%;
+    height: auto;
+}
+
+/* Media query para ocultar la imagen en vista móvil */
+@media screen and (max-width: 768px) {
+    #mi-imagen {
+        display: none;
+    }
+}

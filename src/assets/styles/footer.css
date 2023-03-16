@@ -1,0 +1,43 @@
+.footer {
+    background-color: #000000;
+    color: #d20a0a;
+    padding: 20px 0;
+    margin-top: 40%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.redes-sociales {
+    margin-left: auto;
+}
+
+.redes-sociales a {
+    display: contents;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.redes-sociales a:hover {
+    background-color: #4267B2;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+

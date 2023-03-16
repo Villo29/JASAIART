@@ -1,0 +1,20 @@
+.Productos{
+
+}
+
+
+.selecionarP{
+    position: absolute;
+    width: 483px;
+    height: 62px;
+    left: 20rem;
+    top: 127px;
+}
+
+
+.flecha{
+    position: absolute;
+    height: 62px;
+    left: 60px;
+    top: -1rem;
+}

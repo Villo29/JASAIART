@@ -1,0 +1,120 @@
+.row-Obras {
+    display: flex;
+    flex-wrap: wrap;
+    /*   background-color: #000; */
+}
+
+.divObras {
+    flex: 100%;
+    background-color: #000;
+    padding: 20px;
+}
+
+.txtObras {
+    font-family: "Comfortaa";
+    font-style: normal;
+    color: #f8ca76;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+
+
+
+
+.contenedorImagenes {
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.columnasImagenesObras {
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+.imagenTexto1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0651A2;
+    padding: 20px;
+}
+
+.imagenTexto2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #018045;
+    padding: 20px;
+}
+
+.imagenTexto3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EE3B24;
+    padding: 20px;
+}
+
+/* 
+  img {
+    max-width: 100%;
+    height: auto;
+  } */
+
+.txt-PrecioObraDestacada {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-PrecioObraDestacada p:first-child {
+    margin-bottom: 5px;
+}
+
+.nombreObra {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #EBDFC5;
+
+}
+
+.PintorObra {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #EBDFC5;
+}
+
+.DescripcionObra {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+
+    color: #EBDFC5;
+}
+
+@media only screen and (max-width: 768px) {
+    .columnasImagenesObras {
+        flex-basis: 45%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .columnasImagenesObras {
+        flex-basis: 100%;
+    }
+}
