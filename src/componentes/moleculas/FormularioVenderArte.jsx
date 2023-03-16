@@ -3,30 +3,7 @@ import '../../assets/styles/FormularioVenderArte.css'
 
 
 function FormularioVenderArte() {
-    const form = document.querySelector("form");
 
-    form.addEventListener("submit", async (event) => {
-        event.preventDefault(); // Prevenir que se envíe el formulario de manera convencional
-
-        const formData = new FormData(form); // Crear un objeto FormData con los datos del formulario
-
-        try {
-            const response = await fetch("/upload", {
-                method: "POST",
-                body: formData,
-            });
-
-            if (response.ok) {
-                console.log("La imagen se ha subido correctamente.");
-                // Aquí puedes hacer cualquier otra cosa que necesites después de subir la imagen
-            } else {
-                console.log("Ha ocurrido un error al subir la imagen.");
-            }
-        } catch (error) {
-            console.log(error);
-            console.log("Ha ocurrido un error al subir la imagen.");
-        }
-    });
     return (
         <div className="containerVenderArte">
             <form className='formulariovenderArter'>
