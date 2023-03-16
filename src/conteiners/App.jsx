@@ -5,6 +5,7 @@ import Registro from "../pages/Registro";
 import LandingPage from "../pages/LandingPage";
 import VenderArte from "../pages/VenderArte";
 import Carrito from "../pages/Carrito";
+import PublicarArte from "../pages/PublicaArte";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
                 <Route path="/Login" element={<Login />} />
                 <Route path="/Registrase" element={<Registro />} />
                 <Route path="/JasaiArt" element={<LandingPage />} />
-                <Route path="/VenderArte" element={<VenderArte />} />
+                <Route path="/VenderArte" element={<PublicarArte />} />
                 <Route path="/Carrito" element={<Carrito />} />
             </Routes>
         </BrowserRouter>

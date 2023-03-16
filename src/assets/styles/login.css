@@ -57,7 +57,7 @@
     color: #BB9254;
 }
 
-.contras {
+.con {
     position: absolute;
     width: 446px;
     height: 38px;
@@ -67,7 +67,7 @@
     background: #F8CA76;
 }
 
-.con {
+.contras {
     position: absolute;
     width: 446px;
     height: 38px;
@@ -77,7 +77,7 @@
     background: #F8CA76;
 }
 
-.contra {
+.name {
     position: absolute;
     width: 213px;
     height: 22px;
@@ -178,7 +178,7 @@
     background: #F46044;
 }
 
-.name {
+.contra {
     position: absolute;
     width: 213px;
     height: 22px;
@@ -209,3 +209,19 @@
     }
 }
 
+
+
+
+.swal2-html-container {
+    font-family: 'Comfortaa' !important;
+    font-size: 18px !important;
+    color: rgb(0, 0, 0) !important;
+    height: 80px !important;
+    width: 480px !important;
+}
+
+
+.textalert{
+    font-size: 18px  !important;;
+    font-family: 'Confortaa';
+}

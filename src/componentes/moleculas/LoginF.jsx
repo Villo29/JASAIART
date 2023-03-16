@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import Swal from 'sweetalert2';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/JasaiART.png";
@@ -6,49 +7,82 @@ import Foto from "../../assets/images/Limg.png";
 import "../../assets/styles/login.css"
 
 function Login() {
-    const [stateForm, setStateForm] = useState('')
-    const navigateL = useNavigate();
-    const formDataF = useRef();
+    const form = useRef();
+    const navigate = useNavigate();
     const handlerClick = (e) => {
         e.preventDefault();
-        navigateL("/JasaiArt")
-
-
-        const formData = new FormData(formDataF.current);
-        let URI = "https://jasaiart-api.iothings.com.mx/Usuarios";
-        let options = {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                Nombre: formData.get("Nombre"),
-                Contraseña: formData.get("Contraseña"),
-                Correo: formData.get("Correo"),
-            }),
-        };
-        console.log(options.body);
-        fetch(URI, options)
-            .then((response) => response.json())
-            .then((data) => {
-                alert(JSON.stringify(data));
-            });
-    };
+        const formData = new FormData(form.current);
+        const Nombre = formData.get('Nombre');
+        const Contrasena = formData.get('Contrasena');
+        if (!Nombre || !Contrasena) {
+            Swal.fire({
+                icon: 'question',
+                text: 'Rellena todos los texto',
+            })
+        } else {
+            fetch(`https://jasaiart-api.iothings.com.mx/usuarios/${Nombre}/${Contrasena}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.message == 'Contraseña incorrecta') {
+                        Swal.fire({
+                            icon: 'error',
+                            text: 'La Contraseña esta incorrecta',
+                        })
+                    }
+                    if (data.message == "Nombre de usuario incorrecto") {
+                        Swal.fire({
+                            icon: 'error',
+                            text: 'La Contraseña esta incorrecta!',
+                        })
+                    }
+                    if (data.message == 'Has iniciado sesion') {
+                        let timerInterval
+                        Swal.fire({
+                            html: 'Bienvenido',
+                            timer: 9000,
+                            icon: 'success',
+                            timerProgressBar: true,
+                            didOpen: () => {
+                                Swal.showLoading()
+                                const b = Swal.getHtmlContainer().querySelector('b')
+                                timerInterval = setInterval(() => {
+                                    b.textContent = Swal.getTimerLeft()
+                                }, 100)
+                            },
+                            willClose: () => {
+                                clearInterval(timerInterval)
+                            }
+                        }).then((result) => {
+                            if (result.dismiss === Swal.DismissReason.timer) {
+                                console.log('I was closed by the timer')
+                            }
+                        })
+                        navigate('/JasaiArt');
+                    }
+                })
+        }
+    }
     return (
         <>
             <div >
-                <form ref={formDataF}>
+                <form ref={form} >
                     <img src={Logo} alt="" className="imgL" />
                     <h3 className='welco'>BIENVENIDO JASAI ART</h3>
-                    <h3 className="email">Correo: </h3>
-                    <input type="text" value={stateForm.Correo} name="Correo" className="inputL" />
                     <div>
-                        <h3 className="contra">Contraseña</h3>
-                        <input type="password" value={stateForm.Contraseña} name="Contraseña" className="contras" />
+                        <label>
+                            <h3 className="contra">Contraseña</h3>
+                            <input type="password"
+                                name="Contrasena"
+                                className="contras" />
+                        </label>
                     </div>
                     <div>
-                        <h3 className="name">Nombre</h3>
-                        <input type="text" value={stateForm.Nombre} name="Nombre" className="con" />
+                        <label >
+                            <h3 className="name">Nombre</h3>
+                            <input type="text"
+                                name="Nombre"
+                                className="con" />
+                        </label>
                     </div>
                     <div>
                         <img src={Foto} alt="" className="imagen" />
@@ -71,5 +105,4 @@ function Login() {
         </>
     );
 }
-
 export default Login;

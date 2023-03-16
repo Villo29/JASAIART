@@ -158,6 +158,8 @@
 
 
 #mi-imagen {
+    position: absolute;
+    left: 0;
     width: 100%;
     height: auto;
 }
@@ -167,4 +169,20 @@
     #mi-imagen {
         display: none;
     }
+}
+
+
+
+.imgresgisterr {
+    position: relative;
+    width: 720px;
+    height: 1024px;
+}
+
+
+.swal2-html-container {
+    font-family: 'Comfortaa' !important;
+    font-size: 24px !important;
+    color: rgb(0, 0, 0) !important;
+
 }
