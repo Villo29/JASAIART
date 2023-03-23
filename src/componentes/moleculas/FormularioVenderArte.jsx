@@ -3,7 +3,7 @@ import '../../assets/styles/FormularioVenderArte.css'
 
 
 function FormularioVenderArte() {
-
+            
     return (
         <div className="containerVenderArte">
             <form className='formulariovenderArter'>

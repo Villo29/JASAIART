@@ -38,71 +38,73 @@ function Login() {
                     if (data.message == 'Has iniciado sesion') {
                         let timerInterval
                         Swal.fire({
-                            html: 'Bienvenido',
+                            text: JSON.stringify("Bienvenido " + Nombre),
+                            position: 'top-end',
                             timer: 9000,
                             icon: 'success',
                             timerProgressBar: true,
-                            didOpen: () => {
-                                Swal.showLoading()
-                                const b = Swal.getHtmlContainer().querySelector('b')
-                                timerInterval = setInterval(() => {
-                                    b.textContent = Swal.getTimerLeft()
-                                }, 100)
-                            },
+                            width: '250px',
+                        didOpen: () => {
+                            Swal.showLoading()
+                            const b = Swal.getHtmlContainer().querySelector('b')
+                            timerInterval = setInterval(() => {
+                                b.textContent = Swal.getTimerLeft()
+                            }, 100)
+                        },
                             willClose: () => {
                                 clearInterval(timerInterval)
                             }
-                        }).then((result) => {
-                            if (result.dismiss === Swal.DismissReason.timer) {
-                                console.log('I was closed by the timer')
-                            }
-                        })
-                        navigate('/JasaiArt');
-                    }
-                })
+                    }).then((result) => {
+                        if (result.dismiss === Swal.DismissReason.timer) {
+                            console.log('I was closed by the timer')
+                        }
+                    })
+            navigate('/JasaiArt');
         }
+    })
+}
     }
-    return (
-        <>
-            <div >
-                <form ref={form} >
-                    <img src={Logo} alt="" className="imgL" />
-                    <h3 className='welco'>BIENVENIDO JASAI ART</h3>
-                    <div>
-                        <label>
-                            <h3 className="contra">Contraseña</h3>
-                            <input type="password"
-                                name="Contrasena"
-                                className="contras" />
-                        </label>
-                    </div>
-                    <div>
-                        <label >
-                            <h3 className="name">Nombre</h3>
-                            <input type="text"
-                                name="Nombre"
-                                className="con" />
-                        </label>
-                    </div>
-                    <div>
-                        <img src={Foto} alt="" className="imagen" />
-                    </div>
-                    <div className="check">
-                        <input type="checkbox" name="" id="" /> Mantener Activo
-                    </div>
-                </form>
-                <h3 className="op">Olvidaste tu contraseña</h3>
-            </div>
-            <div>
-                <button onClick={handlerClick} id="buton" >Login</button>
-            </div>
-            <div>
-                <h3 id="create" >¿No tienes cuenta?</h3>
-                <Link to="/Registrase">
-                    <h3 id="create2">Registrate</h3>
-                </Link>
-            </div>
-        </>
-    );
+return (
+    <>
+        <div >
+            <form ref={form} >
+                <img src={Logo} alt="" className="imgL" />
+                <h3 className='welco'>BIENVENIDO JASAI ART</h3>
+                <div>
+                    <label>
+                        <h3 className="contra">Contraseña</h3>
+                        <input type="password"
+                            name="Contrasena"
+                            className="contras" />
+                    </label>
+                </div>
+                <div>
+                    <label >
+                        <h3 className="name">Nombre</h3>
+                        <input type="text"
+                            name="Nombre"
+                            className="con" />
+                    </label>
+                </div>
+                <div>
+                    <img src={Foto} alt="" className="imagen" />
+                </div>
+                <div className="check">
+                    <input type="checkbox" name="" id="" /> Mantener Activo
+                </div>
+            </form>
+            <h3 className="op">Olvidaste tu contraseña</h3>
+        </div>
+        <div>
+            <button onClick={handlerClick} id="buton" >Login</button>
+        </div>
+        <div>
+            <h3 id="create" >¿No tienes cuenta?</h3>
+            <Link to="/Registrase">
+                <h3 id="create2">Registrate</h3>
+            </Link>
+        </div>
+    </>
+);
 }
 export default Login;

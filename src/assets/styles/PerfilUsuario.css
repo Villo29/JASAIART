@@ -1,0 +1,42 @@
+p {
+    font-size: 16px;
+    /* Tamaño de fuente para pantallas de escritorio */
+    line-height: 1.5;
+    /* Espaciado de línea */
+    margin: 10px 0;
+    /* Margen superior e inferior */
+}
+
+
+.ConteinerAccount {
+    height: 40px;
+    border: green 2px solid;
+}
+
+.MiAccount {
+    display: flex;
+    color: rgb(9, 8, 8);
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    border: red 5px solid;
+    display: flex;
+    right: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 14px 0px 0px;
+    gap: 2px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Estilos para pantallas pequeñas */
+    p {
+        font-size: 14px;
+        /* Tamaño de fuente para pantallas pequeñas */
+        line-height: 1.2;
+        /* Espaciado de línea */
+        margin: 5px 0;
+        /* Margen superior e inferior */
+    }
+}

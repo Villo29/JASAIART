@@ -212,16 +212,10 @@
 
 
 
-.swal2-html-container {
+.swal2-text {
     font-family: 'Comfortaa' !important;
-    font-size: 18px !important;
+    font-size: 1px !important;
     color: rgb(0, 0, 0) !important;
-    height: 80px !important;
-    width: 480px !important;
 }
 
 
-.textalert{
-    font-size: 18px  !important;;
-    font-family: 'Confortaa';
-}
