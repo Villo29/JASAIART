@@ -4,7 +4,7 @@ import '../../assets/styles/FormularioVenderArte.css'
 function FormularioVenderArte() {
     return (
         <div className="containerVenderArte">
-            <form>
+            <form className='formularioVenderArte'>
                 <label className="mensaje">NOTA:</label>
                 <textarea id="mensaje" name="mensaje" className='textAreaMensaje' required></textarea>
 

@@ -28,6 +28,7 @@ function RegistroL() {
             .then((response) => response.json())
             .then((data) => {
                 alert(JSON.stringify(data));
+                //Alert con Sweetaler
             });
     };
     return (

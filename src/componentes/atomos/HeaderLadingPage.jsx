@@ -4,23 +4,24 @@ import '../../assets/styles/HeaderLandingPage.css'
 
 function HeaderLandingPage() {
     return (
-        <header className="headerLanding">
+
+        <header className="header">
             <div className="logo">
-                <img src={LogoJasaiArt} />
+                <img src={LogoJasaiArt}/>
             </div>
-            <nav className="navHeader">
+            <nav>
                 <ul className="nav-links">
                     <li>Filtrar por precios</li>
                     <Link to="/VenderArte">
-                        <li>Vender Arte</li>
+                    <li>Vender Arte</li>
                     </Link>
                     <li>Destacadas</li>
-
+                    
                 </ul>
             </nav>
         </header>
 
-    );
+        );
 }
 
 export default HeaderLandingPage;

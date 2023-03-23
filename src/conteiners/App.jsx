@@ -5,7 +5,8 @@ import Registro from "../pages/Registro";
 import LandingPage from "../pages/LandingPage";
 import VenderArte from "../pages/VenderArte";
 import Carrito from "../pages/Carrito";
-import SobrePintores from "../pages/SobrePintores";
+import InformacionContacto from "../pages/InformacionContacto";
+
 
 function App() {
     return (
@@ -17,7 +18,7 @@ function App() {
                 <Route path="/JasaiArt" element={<LandingPage />} />
                 <Route path="/VenderArte" element={<VenderArte />} />
                 <Route path="/Carrito" element={<Carrito />} />
-                <Route path="/SobrePintores" element={<SobrePintores />} />
+                <Route path="/InformacionDeContacto" element={<InformacionContacto />} />
             </Routes>
         </BrowserRouter>
     );

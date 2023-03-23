@@ -7,7 +7,7 @@ function Header() {
     return (
 
         <>
-            <nav className="headerInicio">
+            <nav>
                 <div >
                     <a href="#">
                         <img src={Logo} alt="" class="logo" />
