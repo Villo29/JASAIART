@@ -1,17 +1,15 @@
 import Cancelar from '../../assets/images/Cancel.png'
 import '../../assets/styles/FormularioVenderArte.css'
 
-
 function FormularioVenderArte() {
-            
     return (
         <div className="containerVenderArte">
-            <form className='formulariovenderArter'>
+            <form className='formularioVenderArte'>
                 <label className="mensaje">NOTA:</label>
                 <textarea id="mensaje" name="mensaje" className='textAreaMensaje' required></textarea>
 
                 <label className="Archivos">ARCHIVOS:</label>
-                <input type="file" id="imagen" name="imagen" className='InputArchivo' />
+                <input type="file" id="imagen" name="imagen" className='InputArchivo'/>
 
                 <label className="tipoArchivo" >TIPO DE ARCHIVO:</label>
                 <select id="categoria" name="categoria" className='selectTipoArchivo'>
