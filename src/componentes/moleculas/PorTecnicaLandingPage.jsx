@@ -5,6 +5,11 @@ import ImagenTecnica4 from "../../assets/images/imgTecnica4.jpg"
 import '../../assets/styles/PorTecnicaLandingPage.css'
 
 function PorTecnicaLandingPage(props) {
+
+
+
+
+
     return (
         <div className="row-tecnica">
 

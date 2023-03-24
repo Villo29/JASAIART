@@ -1,4 +1,4 @@
-import CarlosVivar from '../../assets/images/FotoCarlosVivar.jpeg'
+import CarlosVivar from '../../assets/images/FotoPerfilCarlosVivar.jpeg'
 import HugoVazquez from '../../assets/images/FotoHugoVazquez.jpeg'
 import JaimeJose from '../../assets/images/FotoJaimeJose.jpeg'
 import '../../assets/styles/CardPintores.css'
@@ -17,7 +17,7 @@ function CardPintores() {
                         concretos, tratando de aislar la objetividad de sus temas, mostrando
                         al sujeto-objeto en todo su esplendor.
                     </p>
-                    <a href="#">Ver Arte</a>
+                    <a href="/InformacionDeContacto">Ver Arte</a>
                 </div>
             </div>
 
@@ -32,7 +32,7 @@ function CardPintores() {
                         concretos, tratando de aislar la objetividad de sus temas, mostrando
                         al sujeto-objeto en todo su esplendor.
                     </p>
-                    <a href="#">Ver Arte</a>
+                    <a href="/InformacionDeContacto">Ver Arte</a>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ function CardPintores() {
                         con dos manifestaciones la auto-critica y la crítica social haciendo
                         de ésta mezcla un sello muy personal
                     </p>
-                    <a href="#">Ver Arte</a>
+                    <a href="/InformacionDeContacto">Ver Arte</a>
                 </div>
             </div>
         </div>

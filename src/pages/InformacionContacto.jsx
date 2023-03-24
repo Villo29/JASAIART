@@ -5,9 +5,9 @@ import Footer from "../componentes/atomos/FooterLandingPage";
 function InformacionContacto() {
     return (
         <>
-        <Header></Header>
-        <InfoContacto></InfoContacto>
-        <Footer></Footer>
+            <Header></Header>
+            <InfoContacto></InfoContacto>
+            <Footer></Footer>
         </>
     );
 }

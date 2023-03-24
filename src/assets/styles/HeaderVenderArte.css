@@ -1,57 +1,49 @@
-.Header{
-    position: absolute;
-
-    width: 1519px;
-    height: 55px;
-
-    left: 0px;
-    top: 0px;
-
-    background-color: #EE3B24;
-}
-
-.Logo{
-    width: 54px;
-    height: 55px;
-
-    position: absolute;
-    left: 29px;
-    top: 0px;
-}
-
-.FotoPerfil{
-    position: absolute;
-    width: 55.96px;
-    height: 55px;
-    left: 1003px;
-    top: 0px;
-}
-
-h2{
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 22px;
+nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    
-    color: #EBDFC5;
+    padding: 20px;
+    background-color: #EE3B24;
+    color: #EE3B24;
 }
 
-.txt-NameUser{
-    position: absolute;
-    width: 212px;
-    height: 55px;
-    left: 1079px;
-    top: -17px;
+
+
+.navbar-items a {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
 }
 
-.txt-Ayuda{
-    position: absolute;
-    width: 96px;
-    height: 55px;
-    left: 1311px;
-    top: -17px;
+.right-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-align span {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-items {
+        display: none;
+    }
+
+    .right-align {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
 }

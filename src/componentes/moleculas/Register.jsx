@@ -1,3 +1,4 @@
+
 import { useRef, useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import Fondo from "../../assets/images/imgR.png";
@@ -36,7 +37,7 @@ function RegistroL() {
             <div>
                 <form ref={formDataF}>
                     <img src={Logo} alt="" className="Logo" />
-                    <img src={Fondo} alt="" id="mi-imagen" />
+                    <img src={Fondo} alt="" id="mi-imagen"/>
                     <h3 id="welco">REGÍSTRARSE</h3>
                     <h3 className="emailR">Correo: </h3>
                     <input type="text" value={stateForm.Correo} name="Correo" className="inputR" />

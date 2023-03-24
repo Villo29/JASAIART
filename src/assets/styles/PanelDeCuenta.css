@@ -1,0 +1,83 @@
+.content {
+  margin-left: 520px;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.imagenesDeBotones{
+    width: 76px;
+    height: 71px;
+}
+
+.text {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  width: 561px;
+  height: 91px;
+}
+
+.contenedor-boton {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 320px;
+}
+
+.botonesPerfil {
+  width: 212px;
+  height: 111px;
+  margin: 30px;
+  background: #ffffff;
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0;
+    margin-top: 0px;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .botonesPerfil {
+    margin: 15px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .contenedor-boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

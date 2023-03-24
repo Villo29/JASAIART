@@ -5,9 +5,9 @@ import Footer from "../componentes/atomos/FooterLandingPage";
 function SobrePintores() {
     return (
         <>
-        <Header></Header>
-        <CardPintores></CardPintores>
-        <Footer></Footer>
+            <Header></Header>
+            <CardPintores></CardPintores>
+            <Footer></Footer>
         </>
     );
 }

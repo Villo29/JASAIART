@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import "../../assets/styles/header.css";
 import Logo from "../../assets/images/JasaiART.png";
@@ -20,7 +21,7 @@ function Header() {
                     <Link to="/Contacto">
                         <li>Contacto</li>
                     </Link>
-                    <Link to="/Pintoroes">
+                    <Link to="/Sobre-Pintores">
                         <li>Sobre Pintores</li>
                     </Link>
                     <Link to="/Carrito">

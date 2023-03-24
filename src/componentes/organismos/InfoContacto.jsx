@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FotoPerfil from '../../assets/images/FotoPerfilCarlosVivar.png';
-import Arte1 from '../../assets/images/arte1Vivar.png';
+import Arte1 from "../../assets/images/arte1Vivar.png"
 import Arte2 from '../../assets/images/arte2Vivar.png';
 import '../../assets/styles/InfoContacto.css';
 
