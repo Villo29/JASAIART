@@ -13,5 +13,9 @@ function Producto() {
         </>
     );
 }
+<<<<<<< HEAD
 // newibfw
+=======
+
+>>>>>>> david
 export default Producto;

@@ -159,7 +159,7 @@
 
 #mi-imagen {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* Media query para ocultar la imagen en vista móvil */
@@ -167,4 +167,20 @@
     #mi-imagen {
         display: none;
     }
+}
+
+
+
+.imgresgisterr {
+    position: relative; 
+    width: 720px;
+    height: 1024px;
+}
+
+
+.swal2-html-container {
+    font-family: 'Comfortaa' !important;
+    font-size: 24px !important;
+    color: rgb(0, 0, 0) !important;
+
 }

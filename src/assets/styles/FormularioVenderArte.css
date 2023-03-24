@@ -1,0 +1,180 @@
+.containerVenderArte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.formularioVenderArte {
+    background-color: #ebdfc5;
+    width: 80%;
+    max-width: 600px;
+    padding: 80px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+}
+
+.mensaje,
+.Archivos,
+.tipoArchivo,
+.InputArchivo,
+.textAreaMensaje,
+.btn-Publicar,
+.selectTipoArchivo,
+.optionTipoArchivo {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mensaje {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.Archivos {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.tipoArchivo {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 446px;
+    height: 199px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+button {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: #bb9254;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label[for="imagen"] {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #f8ca76;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+}
+
+select {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background: #bb9254;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+option {
+    padding: 8px;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 100px;
+    }
+
+    input[type="file"] {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    form {
+        padding: 40px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+    }
+
+    input[type="file"] {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (min-width: 1025px) {
+    form {
+        padding: 80px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 200px;
+    }
+
+    input[type="file"] {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
