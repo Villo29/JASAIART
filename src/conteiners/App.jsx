@@ -9,6 +9,7 @@ import Producto from "../pages/VistaProducto";
 import InformacionContacto from "../pages/InformacionContacto";
 import SobrePintores from "../pages/SobrePintores";
 import Contacto from "../pages/Contacto";
+import Perfil from "../pages/Perfil";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/Producto" element={<Producto />} />
                 <Route path="/Sobre-Pintores" element={<SobrePintores />  } />
                 <Route path="/Contacto" element={<Contacto /> }/>
+                <Route path="/Perfil" element={<Perfil />}/>
             </Routes>
         </BrowserRouter>
     );
