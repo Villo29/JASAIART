@@ -24,9 +24,6 @@ function Header() {
                     <Link to="/Sobre-Pintores">
                         <li>Sobre Pintores</li>
                     </Link>
-                    <Link to="/Carrito">
-                        <li>Carrito</li>
-                    </Link>
                 </ul>
                 <div class="hamburger-menu">
                     <div class="bar"></div>

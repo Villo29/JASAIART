@@ -1,6 +1,6 @@
 import Header from "../componentes/atomos/header";
 import ImgText from "../componentes/moleculas/imagen1";
-import FooterLandingPage from "../componentes/atomos/FooterLandingPage";
+import FooterLandingPage from '../componentes/atomos/FooterLandingPage';
 
 
 

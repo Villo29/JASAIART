@@ -22,11 +22,30 @@
 
 .responsive-image {
     max-width: 100%;
-    height: auto;
-    margin-left: 20px;
+
     order: 2;
+    width: 589px;
+    height: 208px;
     /* Ordenamos la imagen en segundo lugar */
+    margin-bottom: 3rem;
 }
+
+.Bien-text {
+    position: absolute;
+    width: 640px;
+    height: 27px;
+    left: 8px;
+    top: 128px;
+
+    /* h1 párrafo */
+
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+}
+
 
 @media screen and (max-width: 768px) {
     .image-container {
@@ -46,7 +65,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -75,4 +94,3 @@
         max-width: 100%;
     }
 }
-
