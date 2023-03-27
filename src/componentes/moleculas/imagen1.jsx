@@ -40,9 +40,9 @@ function ImgText() {
                     hasta arte contemporáneo.
                 </h4>
             </div> */}
-            <div class="image-container">
-                <div class="text-container">
-                    <h3 className="Bien-text">Bienvenidos</h3>
+            <div className="image-container">
+                <div className="text-container">
+                    <h4>Bienvenidos</h4>
                         <h3>Estamos emocionados de presentarles el trabajo de algunos
                         de los mejores pintores de nuestra comunidad. Estos artistas
                         han dedicado su vida a crear obras impresionantes que reflejan
