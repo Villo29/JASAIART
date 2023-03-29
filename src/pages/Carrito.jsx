@@ -1,9 +1,9 @@
-
-
-
-import HeaaderCarrito from "../componentes/atomos/HeaderCarrito"
-import ProductosCarrito from "../componentes/moleculas/CarritoC";
-import FooterLandingPage from "../componentes/atomos/FooterLandingPage";
+import FooterCarrito from '../componentes/atomos/FooterLandingPage';
+import HeaaderCarrito from "../componentes/atomos/HeaderCarrito";
+import SeleccionarProductos from "../componentes/atomos/btnSeleccionarProductos";
+import VaciarCarrito from "../componentes/atomos/btnVaciarCarrito";
+import InfodelCarrito from "../componentes/moleculas/InfodelCarrito";
+import TitulodelCarrito from "../componentes/moleculas/TitulosCarrito";
 
 
 function Carrito() {
@@ -11,8 +11,11 @@ function Carrito() {
 
         <>
             <HeaaderCarrito></HeaaderCarrito>
-            <ProductosCarrito></ProductosCarrito>
-            <FooterLandingPage></FooterLandingPage>
+            <SeleccionarProductos></SeleccionarProductos>
+            <TitulodelCarrito></TitulodelCarrito>
+            <InfodelCarrito></InfodelCarrito>
+            <VaciarCarrito></VaciarCarrito>
+            <FooterCarrito></FooterCarrito>
         </>
     );
 }

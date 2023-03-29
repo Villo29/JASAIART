@@ -6,7 +6,9 @@ function MiCuenta(props) {
 
     return (
         <div className="sidebar-container ocultarEnMovil">
+
             <div className="sidebar">
+            <h2 className="sidebar-title">MI CUENTA</h2>
                 <ul>
 
                     <li
@@ -49,7 +51,7 @@ function MiCuenta(props) {
 
                 </ul>
             </div>
-            <h2 className="sidebar-title">MI CUENTA</h2>
+
         </div>
     );
 }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import '../../assets/styles/CardsFiltrarPrecio.css'
 
@@ -21,7 +22,7 @@ function CardFiltrar() {
                     <div className="cardsuperior">
                         <img src={IconoPerfil} className="perfilCard" />
                         <div className="cardHorizontal">
-                            <p className="precioCard">$89.00</p>
+                            <p className="precioCard">$1300.00</p>
                             <img src={Estrellas} className="Estrellas" />
                         </div>
                         <button className="bottonFavoritos">
@@ -31,7 +32,9 @@ function CardFiltrar() {
                     <img src={ImagenCard1} className="imagenCard" />
                     <p className="TituloCard">Oh, Chiapaneca mi amor</p>
                     <p className="NombrePintorCard">De Astrid Breinter</p>
+                    <Link to="/Producto">
                     <button className="btnComprarCard">COMPRAR</button>
+                    </Link>
                 </div>
 
 
