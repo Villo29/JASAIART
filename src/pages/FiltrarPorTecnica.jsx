@@ -3,15 +3,15 @@ import FiltrarTexto from "../componentes/atomos/FiltrarTexto";
 import Card from '../componentes/organismos/CardFiltrar'
 import Footer from '../componentes/atomos/FooterLandingPage';
 
-function FiltrarPorPrecio() {
+function FiltrarPorTecnica() {
     return (
         <>
             <Header></Header>
-            <FiltrarTexto tituloFiltro="HASTA $100.00"></FiltrarTexto>
+            <FiltrarTexto tituloFiltro="ACRILICA"></FiltrarTexto>
             <Card></Card>
             <Footer></Footer>
         </>
     );
 }
 
-export default FiltrarPorPrecio;
+export default FiltrarPorTecnica;

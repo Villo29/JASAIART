@@ -11,6 +11,7 @@ import SobrePintores from "../pages/SobrePintores";
 import Contacto from "../pages/Contacto";
 import Perfil from "../pages/Perfil";
 import FiltrarPorPrecio from "../pages/FiltrarPorPrecio";
+import FiltrarPorTecnica from "../pages/FiltrarPorTecnica"
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/Contacto" element={<Contacto /> }/>
                 <Route path="/Perfil" element={<Perfil /> }/>
                 <Route path="/FiltrarPorPrecio" element={<FiltrarPorPrecio/>}/>
+                <Route path="/FiltrarPorTecnica" element={<FiltrarPorTecnica/>}/>
             </Routes>
         </BrowserRouter>
     );

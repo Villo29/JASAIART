@@ -1,9 +1,9 @@
 import '../../assets/styles/Filtrar.css'
 
-function FiltrarTexto() {
+function FiltrarTexto(props) {
     return (
         <div class="contenedorTextoFiltrar">
-            <p class="txtHasta">HASTA $100.00</p>
+            <p class="txtHasta">{props.tituloFiltro}</p>
         </div>
     );
 }
