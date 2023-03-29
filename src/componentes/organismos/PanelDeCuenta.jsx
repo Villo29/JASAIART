@@ -7,6 +7,7 @@ import ObraDestacada1 from '../../assets/images/ObraDestacada1.png'
 import MiCuenta from '../atomos/MiCuenta';
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 import '../../assets/styles/PanelDeCuenta.css'
@@ -24,7 +25,9 @@ function PanelDeCuenta() {
 
     return (
         <div className="container-perfil">
-            <MiCuenta activeView={activeView} handleMenuItemClick={handleMenuItemClick} />
+            <div className='ocultarEnMovil'>
+                {<MiCuenta activeView={activeView} handleMenuItemClick={handleMenuItemClick} />}
+            </div>
             <div className="main-content">
                 <div className={`view ${activeView === "Escritorio" ? "active" : ""}`} id="Escritorio">
                     <p className="text">
@@ -33,10 +36,13 @@ function PanelDeCuenta() {
                         de tu cuenta
                     </p>
                     <div className="contenedor-boton">
+
+
                         <button className="botonesPerfil">
                             <img src={Pedidos} className="imagenesDeBotones" />
                             PEDIDOS
                         </button>
+
                         <button className="botonesPerfil">
                             <img src={DatosDeLaCuenta} className="imagenesDeBotones" />
                             DATOS DE LA CUENTA

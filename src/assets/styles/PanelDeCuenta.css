@@ -1,4 +1,4 @@
-.view {
+/* .view {
   display: none;
 }
 
@@ -51,4 +51,86 @@
 .imagenesDeBotones{
     width: 76px;
     height: 71px;
+} */
+
+.view {
+  display: none;
+}
+
+.view.active {
+  display: block;
+}
+
+.main-content {
+  margin-left: 520px;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.text {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  width: 561px;
+  height: 91px;
+}
+
+.contenedor-boton {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 320px;
+}
+
+.botonesPerfil {
+  width: 212px;
+  height: 111px;
+  margin: 30px;
+  background: #ffffff;
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+}
+
+.imagenesDeBotones {
+  width: 76px;
+  height: 71px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    margin: 80px auto;
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .text {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-boton {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .botonesPerfil {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .imagenesDeBotones {
+    width: 50px;
+    height: 46px;
+  }
 }

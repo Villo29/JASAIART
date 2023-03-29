@@ -5,16 +5,18 @@ function MiCuenta(props) {
     const { activeView, handleMenuItemClick } = props;
 
     return (
-        <div className="sidebar-container">
+        <div className="sidebar-container ocultarEnMovil">
             <div className="sidebar">
                 <ul>
-                    <li
-                        className={activeView === "Escritorio" ? "active" : ""}
-                        data-view="Escritorio"
-                        onClick={() => handleMenuItemClick("Escritorio")}
-                    >
-                        Escritorio
-                    </li>
+
+                        <li
+                            className={activeView === "Escritorio" ? "active" : ""}
+                            data-view="Escritorio"
+                            onClick={() => handleMenuItemClick("Escritorio")}
+                        >
+                            Escritorio
+                        </li>
+
                     <li
                         className={activeView === "Pedidos" ? "active" : ""}
                         data-view="Pedidos"
@@ -22,6 +24,8 @@ function MiCuenta(props) {
                     >
                         Pedidos
                     </li>
+
+
                     <li
                         className={activeView === "Datos" ? "active" : ""}
                         data-view="Datos"
@@ -29,6 +33,8 @@ function MiCuenta(props) {
                     >
                         Datos de la cuenta
                     </li>
+
+
                     <li
                         className={activeView === "Favoritos" ? "active" : ""}
                         data-view="Favoritos"
