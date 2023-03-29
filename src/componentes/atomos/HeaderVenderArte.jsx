@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/JasaiART.png'
 import FotoPerfil from '../../assets/images/FotoPerfil.png'
 import '../../assets/styles/HeaderVenderArte.css'
@@ -10,7 +11,9 @@ function HeaderVenderArte() {
                     <img src={Logo} alt="" /></a>
             </div>
             <div class="navbar-items">
+                <Link to="/Perfil" >
                 <a>CUENTA</a>
+                </Link>
                 <a href="#">Ayuda</a>
             </div>
             <div class="burger">

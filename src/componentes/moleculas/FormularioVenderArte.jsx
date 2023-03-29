@@ -40,18 +40,21 @@ function FormularioVenderArte() {
     
 
     Swal.fire({
-        icon:
+        icon: "warning",
+        text: 'POR EL MOMENTO NUESTROS SERVIDOR DE IMAGENES ESTA TENIENDO DIFICULTADES  SUBE TU ARTE EN LA SIGUIENTE',
     });
 
     return (
         <div className="containerVenderArte">
             <form className='formularioVenderArte' ref={formDataF}>
                 <label className="mensaje">NOTA:</label>
-                <textarea id="mensaje" name="Nota" value={stateForm.Nota} className='textAreaMensaje' required></textarea>
+                <textarea id="mensaje" className='textAreaMensaje' required></textarea>
 
                 <label className="Archivos">ARCHIVOS:</label>
-                <input type="file" id="imagen" value={stateForm.image} name="image" className='InputArchivo' />
-
+                {/* <input type="file" id="imagen" value={stateForm.image} name="image" className='InputArchivo' /> */}
+                <a href="https://od.lk/fl/MjdfMTMwODkzM18">
+                <button type="submit" className='btn-Publicar'>Subir</button>
+                </a>
                 <label className="tipoArchivo" >TIPO DE ARCHIVO:</label>
                 <select id="categoria" name="categoria" className='selectTipoArchivo'>
                     <option value="" className='optionTipoArchivo'>Seleccione una opción</option>

@@ -31,7 +31,6 @@ function Formcontacto() {
                             <input className='input' type="men" id='mensaje' name='mensaje' />
 
                         </div>
-                        <input type="submit" value="Enviar mensaje" />
                     </div>
 
                 </form>

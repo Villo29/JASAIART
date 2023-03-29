@@ -11,7 +11,8 @@ function HeaderLandingPage() {
             </div>
             <nav>
                 <ul className="nav-links">
-                    <li>Filtrar por precios</li>
+                    <Link to="/FiltrarPorTecnica">
+                    <li>Filtrar por Tecnica</li></Link>
                     <Link to="/VenderArte">
                     <li>Vender Arte</li>
                     </Link>
