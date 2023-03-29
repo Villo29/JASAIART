@@ -1,0 +1,86 @@
+.botonsinborde {
+  border: none;
+  background: none;
+}
+
+.Flechota {
+  width: 34px;
+  height: 41px;
+}
+
+.Vaciar {
+  width: 40px;
+  height: 40px;
+}
+
+.txtProductosCarrito {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.contenedorBotonCarrito {
+  margin-left: 150px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.txtProductosCarrito2 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #000000;
+
+  margin-top: 15px;
+}
+
+.contenedorBotonCarrito2 {
+  margin-left: 150px;
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 187px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contenedorBotonCarrito,
+  .contenedorBotonCarrito2 {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .txtProductosCarrito,
+  .txtProductosCarrito2 {
+    text-align: center;
+  }
+
+  .contenedorBotonCarrito2 {
+    margin-top: 20px;
+  }
+
+  .Flechota,
+  .Vaciar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .txtProductosCarrito,
+  .txtProductosCarrito2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .contenedorBotonCarrito2 {
+    margin-bottom: 50px;
+  }
+}
