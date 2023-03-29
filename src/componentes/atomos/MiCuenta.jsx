@@ -1,21 +1,47 @@
-import { useState } from 'react';
 import '../../assets/styles/MiCuenta.css'
+import { Link } from 'react-router-dom';
 
-function MiCuenta() {
-    const [selectedLink, setSelectedLink] = useState('Escritorio');
-
-    function selectLink(link) {
-        setSelectedLink(link);
-    }
+function MiCuenta(props) {
+    const { activeView, handleMenuItemClick } = props;
 
     return (
         <div className="sidebar-container">
             <div className="sidebar">
-                <a href="#" className={selectedLink === 'Escritorio' ? 'selected' : ''} onClick={() => selectLink('Escritorio')}>Escritorio</a>
-                <a href="#" className={selectedLink === 'Pedidos' ? 'selected' : ''} onClick={() => selectLink('Pedidos')}>Pedidos</a>
-                <a href="#" className={selectedLink === 'Datos de la cuenta' ? 'selected' : ''} onClick={() => selectLink('Datos de la cuenta')}>Datos de la cuenta</a>
-                <a href="#" className={selectedLink === 'Favoritos' ? 'selected' : ''} onClick={() => selectLink('Favoritos')}>Favoritos</a>
-                <a href="#" className={selectedLink === 'Cerrar sesión' ? 'selected' : ''} onClick={() => selectLink('Cerrar sesión')}>Cerrar sesión</a>
+                <ul>
+                    <li
+                        className={activeView === "Escritorio" ? "active" : ""}
+                        data-view="Escritorio"
+                        onClick={() => handleMenuItemClick("Escritorio")}
+                    >
+                        Escritorio
+                    </li>
+                    <li
+                        className={activeView === "Pedidos" ? "active" : ""}
+                        data-view="Pedidos"
+                        onClick={() => handleMenuItemClick("Pedidos")}
+                    >
+                        Pedidos
+                    </li>
+                    <li
+                        className={activeView === "Datos" ? "active" : ""}
+                        data-view="Datos"
+                        onClick={() => handleMenuItemClick("Datos")}
+                    >
+                        Datos de la cuenta
+                    </li>
+                    <li
+                        className={activeView === "Favoritos" ? "active" : ""}
+                        data-view="Favoritos"
+                        onClick={() => handleMenuItemClick("Favoritos")}
+                    >
+                        Favoritos
+                    </li>
+
+                    <Link to="/" className='sin-linea'>
+                        <li>Cerrar sesión</li>
+                    </Link>
+
+                </ul>
             </div>
             <h2 className="sidebar-title">MI CUENTA</h2>
         </div>

@@ -1,0 +1,37 @@
+.productoFavoritos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 3px solid gray;
+}
+
+.imagenDeProductoFavorito {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.informacion-producto {
+  display: flex;
+  flex-direction: column;
+}
+
+.productoFavorito,
+.precioFavorito,
+.eliminarFavorito {
+  margin: 0;
+}
+
+.productoFavorito {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.precioFavorito {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.eliminarFavorito {
+  font-size: 16px;
+  color: red;
+}

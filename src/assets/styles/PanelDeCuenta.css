@@ -1,12 +1,15 @@
-.content {
+.view {
+  display: none;
+}
+
+.view.active {
+  display: block;
+}
+
+.main-content {
   margin-left: 520px;
   margin-top: 80px;
   padding: 20px;
-}
-
-.imagenesDeBotones{
-    width: 76px;
-    height: 71px;
 }
 
 .text {
@@ -45,39 +48,7 @@
   color: black;
 }
 
-@media (max-width: 1024px) {
-  .content {
-    margin-left: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .content {
-    margin-left: 0;
-    margin-top: 0px;
-    padding: 20px;
-    overflow-x: hidden;
-  }
-
-  .text {
-    width: 100%;
-  }
-
-  .botonesPerfil {
-    margin: 15px 0;
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .text {
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .contenedor-boton {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.imagenesDeBotones{
+    width: 76px;
+    height: 71px;
 }

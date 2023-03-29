@@ -1,0 +1,38 @@
+.datosP {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .inputDatos[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #949393;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #949393;
+  }
+  
+  .btn:last-child {
+    margin-right: 0;
+  }
+  
