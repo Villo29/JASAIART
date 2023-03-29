@@ -85,19 +85,23 @@ function PanelDeCuenta() {
 
 
                 <div className={`view ${activeView === "Datos" ? "active" : ""}`} id="Datos">
-                    <h1 className='h1Datos'>Datos de la cuenta</h1>
-                    <p className='datosP'>Nombre:</p>
-                    <input type="text" value='Carlos' className='inputDatos' />
+                    <div className='espacio'>
 
-                    <p className='datosP'>Correo:</p>
-                    <input type="text" value="Carlos@gmail.com" className='inputDatos' />
 
-                    <p className='datosP'>Contraseña:</p>
-                    <input type="text" value='1234' className='inputDatos' />
+                        <h1 className='h1Datos'>Datos de la cuenta</h1>
+                        <p className='datosP'>Nombre:</p>
+                        <input type="text" value='Carlos' className='inputDatos' />
 
-                    <div className="btn-container">
-                        <button className="btn">Descartar</button>
-                        <button className="btn">Guardar</button>
+                        <p className='datosP'>Correo:</p>
+                        <input type="text" value="Carlos@gmail.com" className='inputDatos' />
+
+                        <p className='datosP'>Contraseña:</p>
+                        <input type="text" value='1234' className='inputDatos' />
+
+                        <div className="btn-container">
+                            <button className="btn">Descartar</button>
+                            <button className="btn">Guardar</button>
+                        </div>
                     </div>
                 </div>
 
@@ -105,13 +109,15 @@ function PanelDeCuenta() {
 
 
                 <div className={`view ${activeView === "Favoritos" ? "active" : ""}`} id="Favoritos">
-                    <h1>Favoritos</h1>
-                    <div className="productoFavoritos">
-                        <img src={ObraDestacada1} className="imagenDeProductoFavorito" />
-                        <div className="informacion-producto">
-                            <h3 className="productoFavorito">Nombre del producto</h3>
-                            <h3 className="precioFavorito">Precio: $XXX</h3>
-                            <a className="eliminarFavorito" href="#">Eliminar</a>
+                    <div className="espacio2">
+                        <h1>Favoritos</h1>
+                        <div className="productoFavoritos">
+                            <img src={ObraDestacada1} className="imagenDeProductoFavorito" />
+                            <div className="informacion-producto">
+                                <h3 className="productoFavorito">Nombre del producto</h3>
+                                <h3 className="precioFavorito">Precio: $XXX</h3>
+                                <a className="eliminarFavorito" href="#">Eliminar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
