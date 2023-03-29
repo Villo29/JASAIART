@@ -1,0 +1,22 @@
+.contenedorTextoFiltrar {
+    background: #f8ca76;
+    border-radius: 10px;
+  
+    width: 402px;
+    height: 54px;
+  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .txtHasta {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+  }
+  
