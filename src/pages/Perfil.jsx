@@ -6,10 +6,10 @@ import Footer from '../componentes/atomos/FooterLandingPage';
 function Perfil() {
     return (
         <>
-{/*         <Header></Header> */}
+        <Header></Header>
         <MiCuenta></MiCuenta>
         <PanelDeCuenta></PanelDeCuenta>
-{/*         <Footer></Footer> */}
+        <Footer></Footer>
         </>
     );
 }
