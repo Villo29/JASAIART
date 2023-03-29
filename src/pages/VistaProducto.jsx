@@ -1,6 +1,6 @@
 import HeaderLandingPage from "../componentes/atomos/HeaderLadingPage";
 import ProductoVista from "../componentes/moleculas/Producto";
-import FooterPerfilU from "../componentes/atomos/FooterPerfilU";
+import FooterLandingPage from "../componentes/atomos/FooterLandingPage";
 
 
 
@@ -9,7 +9,7 @@ function Producto() {
         <>
             <HeaderLandingPage></HeaderLandingPage>
             <ProductoVista></ProductoVista>
-
+            <FooterLandingPage></FooterLandingPage>
         </>
     );
 }

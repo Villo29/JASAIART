@@ -5,11 +5,13 @@ import "../../assets/styles/img1.css";
 function ImgText() {
 
 
+
     return (
         <>
-            <div className="image-container">
-                <div className="text-container">
-                    <h4>Bienvenidos</h4>
+
+
+            <div class="image-container">
+                <div class="text-container">
                     <h3>Estamos emocionados de presentarles el trabajo de algunos
                         de los mejores pintores de nuestra comunidad. Estos artistas
                         han dedicado su vida a crear obras impresionantes que reflejan
@@ -17,22 +19,27 @@ function ImgText() {
                         único y una historia interesante detrás de su trabajo. Esperamos que disfruten
                         y se inspiren para seguir apreciando el arte de la pintura.</h3>
                 </div>
-                <img src={img} className="responsive-image" />
+                <div className="Container-imge">
+                    <img src={img} class="responsive-image" />
+                </div>
             </div>
 
-            <section class="image-with-text">
-                <video autoPlay muted loop className="responsive-image" >
-                    <source src={myVideo} type="video/mp4" />
-                </video>
-                {/* <img src={img2} /> */}
-                <div className="text-container">
+            <div class="image-with-text">
+
+                <div className="container-video">
+                    <video autoPlay muted loop className="responsive-video" >
+                        <source src={myVideo} type="video/mp4" />
+                    </video>
+                </div>
+
+                <div class="text-container-video">
                     <h3>  ¡Somos el hogar de algunos de los mejores artistas jasai del mundo!
                         Estamos orgullosos  por su habilidad técnica, creatividad e innovación.
                         ¡Prepárate para descubrir una variedad de técnicas y estilos cada uno con su propio
                         enfoque y técnica única. Desde pinturas al óleo hasta grabados, y desde esculturas tradicionales
                         hasta arte contemporáneo.</h3>
                 </div>
-            </section>
+            </div>
         </>
     );
 }

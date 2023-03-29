@@ -28,28 +28,29 @@ function ProductoVista() {
 
     return (
         <>
-
-            {/* <div className="carousel" onMouseMove={handleMouseMove} >
+            <div className="product-page">
+                <div className="product-image">
+                    <img src="https://web.opendrive.com/api/v1/download/file.json/MjdfMTY4MDA5MzhfbXJ6dGM?session_id=77419c715cbb09b237d09a13f86accadfcbb369ad4fb46e5989b2814fe91df4a&inline=1&preview=1" alt="Product Image" />
+                    <div className="small-images">
+                        <img src="https://www.opendrive.com/s/MjdfMTY4MDA5Mzdfc2Y1dGg?preview=1&folder_id=MjdfMTMwODkzM182djZTRA" alt="Small Product Image 1" className='imgs1' />
+                        <img src="https://web.opendrive.com/api/v1/download/file.json/MjdfMTY4MDA5MzlfYVNXbjA?session_id=77419c715cbb09b237d09a13f86accadfcbb369ad4fb46e5989b2814fe91df4a&inline=1&preview=1" alt="Small Product Image 2" className='imgs2' />
+                    </div>
+                </div>
+                <div className="product-info">
+                    <h1>AISTRID BREINTER. OH CHIAPANECA MI AMOR</h1>
+                    <p className="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id est magna.</p>
+                    <p className="product-price">$1,300</p>
+                    <div className='btnproducto'>
+                    <button className="buy-now-button">Añadir Carrito</button>
+                    <button className="w">Pedir por WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+            <div className="carousel" onMouseMove={handleMouseMove} >
                 <div className="carousel-inner" style={{ transform: `translateX(-${currentIndex * 25}%)` }}>
                     {images.map((src, index) => (
                         <img key={index} src={src} alt={`Imagen ${index}`} />
                     ))}
-                </div>
-            </div> */}
-
-            <div className="product-page">
-                <div className="product-image">
-                    <img src="https://via.placeholder.com/300x300" alt="Product Image" />
-                    <div className="small-images">
-                        <img src="https://via.placeholder.com/80x80" alt="Small Product Image 1" />
-                        <img src="https://via.placeholder.com/80x80" alt="Small Product Image 2" />
-                    </div>
-                </div>
-                <div className="product-info">
-                    <h1>Product Name</h1>
-                    <p className="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id est magna.</p>
-                    <p className="product-price">$19.99</p>
-                    <button className="buy-now-button">Buy Now</button>
                 </div>
             </div>
 

@@ -1,85 +1,178 @@
+/*contenedor de la primera seccion*/
+/* .image-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 15px 15px;
+} */
+/*estilos para tu h3*/
+/* h3{
+font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: justify;
+} */
+/*contenedor del texto con h3*/
+/* .text-container h3 {
+    width: auto;
+    margin: 15px;
+} */
+
+/*contenedor de la imagen de la primera seccion*/
+/* .Container-imge{
+width: auto;
+margin: 15px;
+} */
+/*tamaño para la imagen*/
+/* .responsive-image {
+width: auto;
+height: auto;
+} */
+
+
+/*contenedor de la segunda seccion*/
+/* .image-with-text{
+display: flex;
+align-items: center;
+margin: 15px 15px;
+} */
+/*tamaño de tu video*/
+/* .responsive-video{
+width:90%;
+} */
+/*tamaños para tus dos div que contienen los contenido video y texto*/
+/* .container-video, .text-container-video{
+width: 60%;
+margin: 15px;
+}
+.Bien-text {
+    font-family: 'Comfortaa';
+    font-size: 4rem;
+    line-height: 27px;
+    text-align: center;
+} */
+
+/*le quite tu responsi porque esta mal como lo esta haciendo es de movil a deskop y esa medidas son de tabletas*/
+
+
+/* Estilos generales para todos los dispositivos */
+
+
+/* Contenedor de la primera sección */
 .image-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
 }
 
-
-.text-container h3 {
+/* Estilos para tu h3 */
+h3 {
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 30px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
-.responsive-image {
-    max-width: 100%;
+/* Contenedor del texto con h3 */
+.text-container h3 {
+    width: auto;
+    margin: 0 30px;
+}
 
-    order: 2;
-    width: 589px;
-    height: 208px;
-    /* Ordenamos la imagen en segundo lugar */
-    margin-bottom: 3rem;
+/* Contenedor de la imagen de la primera sección */
+.Container-imge {
+    width: auto;
+    margin: 0 30px;
+}
+
+/* Tamaño para la imagen */
+.responsive-image {
+    width: auto;
+    height: auto;
+}
+
+/* Contenedor de la segunda sección */
+.image-with-text {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+/* Tamaño de tu video */
+.responsive-video {
+    width: 90%;
+}
+
+/* Tamaños para tus dos div que contienen los contenido video y texto */
+.container-video,
+.text-container-video {
+    width: 60%;
+    margin: 0 30px;
 }
 
 .Bien-text {
-    width: 640px;
-    height: 27px;
-    top: 128px;
     font-family: 'Comfortaa';
-    font-size: 34px;
+    font-size: 4rem;
     line-height: 27px;
     text-align: center;
 }
 
+/* Media queries para dispositivos móviles */
+@media only screen and (max-width: 767px) {
 
-@media screen and (max-width: 768px) {
+    /* Contenedor de la primera sección */
     .image-container {
         flex-direction: column;
+        margin: 15px;
     }
 
-    .responsive-image {
-        margin-left: 0;
+    /* Estilos para tu h3 */
+    h3 {
         margin-bottom: 20px;
     }
-}
 
-/* ////// */
+    /* Contenedor del texto con h3 */
+    .text-container h3 {
+        margin: 15px 0;
+    }
 
+    /* Contenedor de la imagen de la primera sección */
+    .Container-imge {
+        margin: 15px 0;
+    }
 
-.image-with-text {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: end;
-    max-width: 800px;
-    margin: 0 auto;
-}
+    /* Tamaño para la imagen */
+    .responsive-image {
+        width: 100%;
+        height: auto;
+    }
 
-.image-with-text img {
-    max-width: 50%;
-    margin-right: 20px;
-}
-
-.image-with-text .text {
-    max-width: 40%;
-}
-
-@media screen and (max-width: 768px) {
+    /* Contenedor de la segunda sección */
     .image-with-text {
         flex-direction: column;
+        margin: 15px;
     }
 
-    .image-with-text img {
-        max-width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
+    /* Tamaño de tu video */
+    .responsive-video {
+        width: 100%;
     }
 
-    .image-with-text .text {
-        max-width: 100%;
+    /* Tamaños para tus dos div que contienen los contenido video y texto */
+    .container-video,
+    .text-container-video {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .Bien-text {
+        font-size: 2rem;
     }
 }
