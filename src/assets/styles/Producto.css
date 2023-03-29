@@ -120,13 +120,16 @@
 
 
 
-.carousel {
+/* .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 4rem;
+    border: 10px solid rgb(31, 53, 224);
+
 }
 
 .carousel-inner {
@@ -134,15 +137,18 @@
     transition: transform 0.3s ease;
     border-radius: 5px red solid;
     margin: 0 30px;
+    border: 10px solid red;
+    justify-content: space-between;
 }
 
 .carousel-image-container img {
     display: block;
-    border: 2px solid black;
+    border-radius: 5px red solid;
     width: 100%;
     height: auto;
     margin: 5px 40px;
-}
+    justify-content: space-between;
+} */
 
 @media screen and (max-width: 768px) {
     .carousel-image-container {
@@ -156,17 +162,36 @@
     }
 }
 
+.title1 {
+    text-align: center;
+}
+
+.categoria {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info1 {
+    display: flex;
+    text-align: center;
+}
+
 .product-page {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .product-image {
     flex: 1 1 300px;
     margin-right: 10rem;
+    text-align: center;
 }
 
 .product-image img {
@@ -178,6 +203,10 @@
     flex: 1 1 300px;
     top: 2rem;
     font-family: Comfortaa;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
 }
 
 .product-info h1 {
@@ -186,17 +215,28 @@
     font-family: Comfortaa;
 }
 
-.product-info .product-description {
+.product-info {
+    margin: 10px;
+    margin-top: -40rem;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-family: Comfortaa;
 }
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 
 .product-info .product-price {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
     font-family: Comfortaa;
+    margin-bottom: 30px;
 }
 
 
@@ -217,11 +257,11 @@
     display: flex;
     margin-top: 1em;
     width: 30%;
-    height: 30%;;
+    height: 30%;
+    ;
     cursor: pointer;
-    border: 10px rgb(0, 97, 183) solid;
     justify-content: space-between;
-    right: 20px
+    margin-bottom: 4rem;
 }
 
 .small-images img {
@@ -229,14 +269,12 @@
     margin-right: 4rem;
     cursor: pointer;
     justify-content: center;
-    border: 10px red solid;
     justify-content: space-between;
     right: 20px
 }
 
 .small-images img:last-child {
     margin-right: 0;
-    border: 10px red solid;
     justify-content: space-between;
     right: 20px;
 }
@@ -268,6 +306,8 @@
     line-height: 40px;
     text-align: center;
     line-height: 20px;
+    margin-bottom: 20px;
+    align-items: center
 }
 
 .w {
@@ -278,6 +318,7 @@
     text-align: center;
     color: #018045;
     margin-bottom: 10px;
+    align-items: center
 }
 
 
@@ -285,4 +326,57 @@
     display: flex;
     flex-direction: column;
     width: 16rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.OtrasI {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+}
+
+
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    
+}
+
+
+.element {
+    flex: 1 0 auto;
+    margin: 0 80px;
+    background-color: #EBDFC5;
+    width: 329px;
+    height: 386px;
+    border: 1px dashed #000000;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+
+
+.text1 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.imagenCarre {
+    display: flex;
+    margin-top: 12px;;
+    width: 213px;
+    height: 223px;
+    justify-self: center;
+    align-items: center;
 }

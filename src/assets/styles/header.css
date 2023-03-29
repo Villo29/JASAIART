@@ -1,4 +1,6 @@
-
+.sin-linea {
+    text-decoration: none;
+}
 
 nav {
     display: flex;

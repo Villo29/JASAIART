@@ -1,6 +1,4 @@
-.Productos{
 
-}
 
 
 .selecionarP{
@@ -9,12 +7,12 @@
     height: 62px;
     left: 20rem;
     top: 127px;
+    margin-bottom: 10rem;
 }
 
 
 .flecha{
-    position: absolute;
+    width: 72px;
     height: 62px;
-    left: 60px;
-    top: -1rem;
+    
 }

@@ -15,13 +15,13 @@ function Header() {
                     </a>
                 </div>
                 <ul class="menu">
-                    <Link to="/Login">
+                    <Link to="/Login" className='sin-linea' >
                         <li>Login</li>
                     </Link>
-                    <Link to="/Contacto">
+                    <Link to="/Contacto" className='sin-linea' >
                         <li>Contacto</li>
                     </Link>
-                    <Link to="/Sobre-Pintores">
+                    <Link to="/Sobre-Pintores" className='sin-linea'>
                         <li>Sobre Pintores</li>
                     </Link>
                 </ul>

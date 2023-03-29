@@ -11,7 +11,7 @@ function RegistroL() {
     const formDataF = useRef();
     const handlerClick = (e) => {
         e.preventDefault();
-        navigateL("/JasaiArt")
+        navigateL("/Login")
         const formData = new FormData(formDataF.current);
         let URI = "https://jasaiart-api.iothings.com.mx/Usuarios";
         let options = {

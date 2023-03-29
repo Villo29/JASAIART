@@ -1,14 +1,23 @@
+import { Link } from "react-router-dom";
+import LogoJasaiArt from '../../assets/images/JasaiART.png'
+import '../../assets/styles/HeaderLandingPage.css'
 
-import Logo from "../../assets/images/JasaiART.png";
-import "../../assets/styles/HeaderCarrito.css"
+function HeaderLandingPage() {
+    return (
 
-function HeaaderCarrito() {
-    return ( 
-        <div id='contenedorHeader'>
-        <img src={Logo} id="LogoJasai"/>
-        <h2 id='txt-FiltrarPrecio'>Carrito</h2>
-    </div>
-    );
+        <header className="header">
+            <div className="logo">
+                <img src={LogoJasaiArt}/>
+            </div>
+            <nav>
+                <ul className="nav-links">
+                    <Link to="/Perfil">
+                    <li>Mi Cuenta</li>
+                    </Link>
+                </ul>
+            </nav>
+        </header>
+
+        );
 }
-
-export default HeaaderCarrito;
+export default HeaderLandingPage;

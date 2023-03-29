@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 import Cancelar from '../../assets/images/Cancel.png'
 import '../../assets/styles/FormularioVenderArte.css'
 
@@ -36,7 +37,11 @@ function FormularioVenderArte() {
                 })
             });
     };
+    
 
+    Swal.fire({
+        icon:
+    });
 
     return (
         <div className="containerVenderArte">

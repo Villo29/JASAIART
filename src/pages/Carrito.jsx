@@ -1,9 +1,9 @@
 
 
-import FooterCarrito from "../componentes/atomos/FooterCarrito";
-import HeaaderCarrito from "../componentes/atomos/HeaderCarrito";
-import ProductosCarrito from "../componentes/moleculas/CarritoC";
 
+import HeaaderCarrito from "../componentes/atomos/HeaderCarrito"
+import ProductosCarrito from "../componentes/moleculas/CarritoC";
+import FooterLandingPage from "../componentes/atomos/FooterLandingPage";
 
 
 function Carrito() {
@@ -12,7 +12,7 @@ function Carrito() {
         <>
             <HeaaderCarrito></HeaaderCarrito>
             <ProductosCarrito></ProductosCarrito>
-            <FooterCarrito></FooterCarrito>
+            <FooterLandingPage></FooterLandingPage>
         </>
     );
 }

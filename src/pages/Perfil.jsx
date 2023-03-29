@@ -1,6 +1,6 @@
 import Header from '../componentes/atomos/HeaderLadingPage';
 import MiCuenta from "../componentes/atomos/MiCuenta";
-import PanelDeCuenta from "../componentes/moleculas/PanelDeCuenta";
+import PanelDeCuenta from "../componentes/organismos/PanelDeCuenta";
 import Footer from '../componentes/atomos/FooterLandingPage';
 
 function Perfil() {

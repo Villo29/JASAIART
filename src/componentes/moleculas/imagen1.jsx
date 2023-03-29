@@ -1,6 +1,5 @@
-import myVideo from "../../assets/images/y2mate.com - Cartel de Santa  Piensa en Mi_1080p.mp4"
+import myVideo from "../../assets/images/myvideo.mp4"
 import img from "../../assets/images/img1.png";
-import img2 from "../../assets/images/img3.png";
 import "../../assets/styles/img1.css";
 function ImgText() {
 

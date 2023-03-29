@@ -1,4 +1,4 @@
-import HeaderLandingPage from '../componentes/atomos/HeaderLadingPage';
+import HeaderLanding from '../componentes/atomos/headerlandigcarrito';
 import CarruselLandingPage from '../componentes/moleculas/CarruselLandingPage';
 import RegalaArte from '../componentes/moleculas/RegalaArteLandingPage';
 import FiltrarPorPrecioLandingPage from '../componentes/atomos/FiltrarPorPrecioLandigPage';
@@ -10,13 +10,13 @@ import FooterLandingPage from '../componentes/atomos/FooterLandingPage';
 function LandingPage() {
     return (
         <>
-            <HeaderLandingPage></HeaderLandingPage>
+            <HeaderLanding></HeaderLanding>
             <CarruselLandingPage />
             <RegalaArte />
             <FiltrarPorPrecioLandingPage />
             <PreciosLandingPage />
             <PorTecnicaLandingPage tituloTecnica="POR TÉCNICA" />
-            <ObrasDestacadas tituloObras="OBRAS DESTACADAS"/>
+            <ObrasDestacadas tituloObras="OBRAS DESTACADAS" />
             <FooterLandingPage />
         </>
     );
